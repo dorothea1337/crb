@@ -1,0 +1,21 @@
+.participants-hero{
+    width: 100%;
+    min-height: 55vh;
+    
+    background-image: url(../images/participants/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;   
+    background-size: cover;
+
+    margin: 0;
+}
+
+.participants-hero-inner{
+    display: flex;
+    /* justify-content: baseline; */
+    flex-direction: column;
+}
+
+.participants-h1{
+    width: 50%;
+}

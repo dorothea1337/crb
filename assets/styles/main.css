@@ -71,6 +71,17 @@ p {
     line-height: 163%;
 }
 
+.hero-subheading{
+    font-family:'Helvetica';
+    font-weight:normal;
+    line-height: 163%;
+
+    font-size: 24px;
+    color: white;
+
+    width: 50%;
+}
+
 
 
 /*-------- links --------*/
