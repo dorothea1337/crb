@@ -1,0 +1,55 @@
+.etp-hero{
+    position: relative;
+    margin: 0;
+    border: 1px solid transparent;
+}
+
+.etp-bg{
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    top:0;
+    z-index: -1;
+}
+
+.etp-h1{
+    margin-top: 100px;
+}
+
+.etp-hero__logos{
+    border-top: 1px solid white;
+
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 25px;
+}
+
+.etp-h3{
+    color: #13566D;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+
+    font-family:'Helvetica';
+    font-weight:bold;
+    line-height: 163%;
+
+    font-size: 20px;
+
+    margin: 25px 0;
+
+}
+
+.etp-participants{
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+
+    margin-bottom: 75px;
+}
+
+.etp-participants__card img{
+    height: 100%;
+}

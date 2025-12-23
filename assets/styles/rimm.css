@@ -1,0 +1,65 @@
+.rimm-hero{
+    width: 100%;
+    min-height: 55vh;
+    
+    background-image: url(../images/rimm/rimm-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;   
+    background-size: cover;
+
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.subheading-rimm{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 131%;
+    color: white;
+
+    letter-spacing: -2%;
+}
+
+.rimm-h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 131%;
+
+    font-size: 48px;
+    color: white;
+}
+
+.rimm-btn{
+    background: linear-gradient(to right, #BE2E33, #3D3970);
+    color: white;
+}
+
+.rimm-btn:hover{
+    background: linear-gradient(to right, #9e2428, #323061);
+    color: white;
+}
+
+.rimm-date{
+    background: linear-gradient(to right, #BE2E33, #3D3970);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family:'Helvetica';
+    font-weight:bold;
+
+    margin: 0;
+    margin-top: 25px;
+
+    font-size: 15px;
+    width: fit-content;
+}
+
+.rimm-content{
+    margin-bottom: 75px;
+}

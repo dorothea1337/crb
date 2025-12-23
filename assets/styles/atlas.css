@@ -1,0 +1,26 @@
+.atlas-section{
+    width: 100%;
+    min-height: 100vh;
+    
+    background-image: url(../images/atlas/bg-picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: right top;
+
+    padding: 75px 0;
+    margin: 0 auto;
+}
+
+.atlas-h1{
+    margin-bottom: 75px;
+}
+
+.atlas-buttons{
+    gap: 20px;
+    margin: 50px auto;
+}
+
+.atlas-logo{
+    margin-bottom: 25px;
+}

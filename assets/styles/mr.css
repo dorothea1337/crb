@@ -1,0 +1,35 @@
+.about-mr{
+    margin-top: 50px;
+}
+
+.mr-hero__bg-img{
+    display: flex;
+    width: 100%;
+    z-index: -1;
+    position: relative;
+}
+
+.mr-h1{
+    position: absolute;
+    top: 200px;
+}
+
+.mr-logo{
+    margin-bottom: 25px;
+}
+
+.mrgn-btn{
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.mr-sm-icons{
+    gap: 15px;
+}
+
+.carousel{
+    margin: 25px auto;
+}
+
+
+

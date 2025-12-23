@@ -1,0 +1,17 @@
+.contacts-h2{
+    font-size: 36px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+
+    margin-bottom: 75px;
+}
+
+.contacts__photo{
+    border-radius: 999px;
+}
+

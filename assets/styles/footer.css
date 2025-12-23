@@ -1,0 +1,34 @@
+.footer {
+    background-color: #13566D;
+    color: #FFF;
+    padding: 25px 0;
+}
+
+.footer__text{
+    font-size: 16px;
+}
+
+.footer__top{
+    display: flex;
+    align-items: center;
+}
+
+.footer__org-heading{
+    margin: 0;
+}
+
+.fooler__link {
+    text-decoration: underline;
+    color: #13566D; 
+    font-size: 16px; 
+}
+
+.footer__divider{
+    display: flex;
+    height: 1px;
+    width: 100%;
+
+    background-color: #FFF;
+
+    margin: 20px 0;
+}
