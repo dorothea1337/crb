@@ -10,7 +10,7 @@
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <li><a class="hv-bold dropdown-item" href="#">О Консорциуме</a></li>
                         <li><a class="hv-bold dropdown-item" href="<?= BASE_URL ?>consortium/participants">Участники</a></li>
-                        <li><a class="hv-bold dropdown-item" href="#">Партнеры</a></li>
+                        <li><a class="hv-bold dropdown-item" href="<?= BASE_URL ?>consortium/partners">Партнеры</a></li>
                         <li><a class="hv-bold dropdown-item" href="<?= BASE_URL ?>consortium/etp">ЕТП Робототехника</a></li>
                         <li><a class="hv-bold dropdown-item" href="<?= BASE_URL ?>consortium/tk">ТК 131 ПК 3</a></li>
                     </ul>
