@@ -9,14 +9,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/header.css">
-    <link rel="stylesheet" href="assets/styles/footer.css">
-    <link rel="stylesheet" href="assets/styles/contacts.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/contacts.css">
 
 
 </head>
-<?php include 'header.php'; ?>
+
+<?php
+include __DIR__ . '/../templates/header.php';
+?>
 
 <main>
         <section class="contacts container">
@@ -65,4 +68,6 @@
         </section>
     </main>
 
-<?php include 'footer.php'; ?>
+<?php
+include __DIR__ . '/../templates/footer.php';
+?>

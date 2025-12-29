@@ -9,22 +9,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/header.css">
-    <link rel="stylesheet" href="assets/styles/footer.css">
-    <link rel="stylesheet" href="assets/styles/mr.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/mr.css">
 
 </head>
-<?php include 'header.php'; ?>
+
+<?php
+include __DIR__ . '/../../templates/header.php';
+?>
 
 <main>
-        <img src="assets/images/mir-robototekhniki/cover.png" class="mr-hero__bg-img">
+        <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/cover.png" class="mr-hero__bg-img">
         <div class="container">
             <h1 class="h1-white mrrt-bold mr-h1">Журнал МИР Робототехники</h1>
         </div>
         
         <section class="about-mr container">           
-            <img src="assets/images/mir-robototekhniki/mr-logo.svg" alt="Логотип Мир Робототехники | Консорциум Робототехники" class="mr-logo">
+            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-logo.svg" alt="Логотип Мир Робототехники | Консорциум Робототехники" class="mr-logo">
             <p><a href="https://roboticsworld.ru/subscribe/" target="_blank" class="link black-link">Журнал «Мир робототехники»</a> — это альманах аналитики, экспертных мнений и новостей о самых важных событиях отрасли в России и мире.</p>
             <p>За 2 года Консорциум выпустил уже 15 печатных номеров, тиражом 10 тыс. экземпляров каждый. Более 360 статей, созданных в сотрудничестве с ключевыми участниками отрасли, рассказывают о беспилотниках, чипах и компонентах, промышленных, сервисных и других видах роботов.</p>
             <a class="btn btn-dark l-btn mrgn-btn" href="https://promo.roboticsworld.ru/mediakit" target="_blank">Медиа-кит</a>
@@ -33,12 +36,12 @@
 
             <div class="d-flex flex-row justify-content-between">
                 <div class="d-flex flex-row mr-sm-icons">
-                    <a href="https://t.me/world_of_robotics" target="_blank"><img src="assets/images/mir-robototekhniki/tg-logo.png"></a>
-                    <a href="https://vk.com/world_of_robotics" target="_blank"><img src="assets/images/mir-robototekhniki/vk-logo.svg"></a>
-                    <a href="https://max.ru/world_of_robotics" target="_blank"><img src="assets/images/mir-robototekhniki/max-logo.svg"></a>
+                    <a href="https://t.me/world_of_robotics" target="_blank"><img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/tg-logo.png"></a>
+                    <a href="https://vk.com/world_of_robotics" target="_blank"><img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/vk-logo.svg"></a>
+                    <a href="https://max.ru/world_of_robotics" target="_blank"><img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/max-logo.svg"></a>
                 </div>
 
-                <a href="https://www.ozon.ru/seller/zhurnal-mir-robototehniki-1097857/" target="_blank"><img src="assets/images/mir-robototekhniki/ozon-logo.svg"></a>
+                <a href="https://www.ozon.ru/seller/zhurnal-mir-robototehniki-1097857/" target="_blank"><img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/ozon-logo.svg"></a>
             </div>
 
         </section>
@@ -49,41 +52,41 @@
                     
                     <div class="carousel-item active">
                         <div class="row">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-15.png" class="col-md-4">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-14.png" class="col-md-4">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-13.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-15.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-14.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-13.png" class="col-md-4">
                         </div>
                     </div>
 
                      <div class="carousel-item">
                         <div class="row">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-12.png" class="col-md-4">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-11.png" class="col-md-4">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-10.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-12.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-11.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-10.png" class="col-md-4">
                         </div>
                     </div>
 
                      <div class="carousel-item">
                         <div class="row">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-9.png" class="col-md-4">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-8.png" class="col-md-4">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-7.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-9.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-8.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-7.png" class="col-md-4">
                         </div>
                     </div>
 
                      <div class="carousel-item">
                         <div class="row">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-6.png" class="col-md-4">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-5.png" class="col-md-4">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-4.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-6.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-5.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-4.png" class="col-md-4">
                         </div>
                     </div>
 
                      <div class="carousel-item">
                         <div class="row">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-3.png" class="col-md-4">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-2.png" class="col-md-4">
-                            <img src="assets/images/mir-robototekhniki/mr-magazine-1.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-3.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-2.png" class="col-md-4">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-1.png" class="col-md-4">
                         </div>
                     </div>
 
@@ -103,4 +106,6 @@
         </section>
     </main>
 
-<?php include 'footer.php'; ?>
+<?php
+include __DIR__ . '/../../templates/footer.php';
+?>

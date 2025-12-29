@@ -1,7 +1,7 @@
-<footer class="footer">
+<footer class="<?= $section === 'ecosystem' ? 'footer-black' : 'footer' ?>">
         <div class="container">
             <div class="footer__top row">
-                <a class="col"><img src="assets/images/footer/CRB_logo_footer.png"></a>
+                <a class="col" href="<?= BASE_URL ?>"><img src="<?= BASE_URL ?>assets/images/footer/CRB_logo_footer.png"></a>
                 <p class="col-8 hv-light footer__org-heading">Ассоциация "Промышленный Кластер "Консорциум РСИУ"</p>
             </div>
             <div class="footer__divider"></div>
@@ -12,7 +12,7 @@
                     <a href="https://disk.360.yandex.ru/i/UnZLabnNyhQzEA" target="_blank" class="footer__link link_white hv-light">Согласие на обработку персональных данных</a>
                 </div>
                 <div class="col">
-                    <h5><a href="contacts.html" class="link_white hv-regular">Контакты</a></h5>
+                    <h5><a href="<?= BASE_URL ?>contacts" class="link_white hv-regular">Контакты</a></h5>
                     <a href="tel:+79602322676" class="hv-light footer__link link_white">+7 (960) 232-26-76</a><br>
                     <a href="tel:+79811262000" class="hv-light footer__link link_white">+7 (981) 126-20-00</a><br>
                     <a href="tel:+79650415041" class="hv-light footer__link link_white">+7 (965) 041-50-41</a><br>

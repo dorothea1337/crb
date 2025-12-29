@@ -9,14 +9,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/header.css">
-    <link rel="stylesheet" href="assets/styles/footer.css">
-    <link rel="stylesheet" href="assets/styles/atlas.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/atlas.css">
 
 
 </head>
-<?php include 'header.php'; ?>
+
+<?php
+include __DIR__ . '/../../templates/header.php';
+?>
 
 <main>
         <section class="atlas-section">
@@ -30,7 +33,7 @@
                     <a class="l-btn btn-light flex-grow-1" href="https://vk.com/video-227546802_456239037" target="_blank">Видео с презентации на РЭФ</a>
                 </div>
 
-                <img src="assets/images/atlas/atlas-logo.svg" alt="АТЛАС Робототехники | Консорциум Робототехники" class="atlas-logo">
+                <img src="<?= BASE_URL ?>assets/images/atlas/atlas-logo.svg" alt="АТЛАС Робототехники | Консорциум Робототехники" class="atlas-logo">
 
                 <h2 class="h2 white">ПРИГЛАШАЕМ К СОТРУДНИЧЕСТВУ ПРЕДПРИЯТИЯ ОТРАСЛИ!</h2>
                 <p class="white">Для сотрудничества заполните анкету и направьте ее на <a class="link link_white" href="mailto:info@roboticsatlas.ru">info@roboticsatlas.ru</a>.</p>
@@ -40,4 +43,6 @@
         </section>        
     </main>
 
-<?php include 'footer.php'; ?>
+<?php
+include __DIR__ . '/../../templates/footer.php';
+?>

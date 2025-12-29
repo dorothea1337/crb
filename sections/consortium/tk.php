@@ -9,20 +9,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/header.css">
-    <link rel="stylesheet" href="assets/styles/footer.css">
-    <link rel="stylesheet" href="assets/styles/tk.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/tk.css">
 
 </head>
-<?php include 'header.php'; ?>
+
+<?php
+include __DIR__ . '/../../templates/header.php';
+?>
 
 <main>
         <section class="container tk">
             <h1 class="mrrt-bold h1 turquose-dark tk-h1">ТК 141 ПК 3</h1>
             <p class="quote-alike">Подкомитет ПК 3 "Промышленная робототехника" технического комитета по стандартизации 141 "Робототехника"</p>
             <div class="content row align-items-start">
-                <img src="assets/images/tk/tk__tk-image.png" class="col-4">
+                <img src="<?= BASE_URL ?>assets/images/tk/tk__tk-image.png" class="col-4">
                 <div class="col">
                     <p class="hv-light">В структуре <a href="https://tk141.rtc.ru" target="_blank" class="link">технического комитета по стандартизации ТК 141 "Робототехника"</a> приказом Росстандарта выделен подкомитет ПК 3 "Промышленная робототехника" на базе Консорциума робототехники и систем интеллектуального управления.</p>
                     <p class="hv-light">Приглашаем экспертное сообщество подключиться к работе профильного подкомитета по стандартизации и войти в его состав.</p>
@@ -48,4 +51,6 @@
         </section>
     </main>
 
-<?php include 'footer.php'; ?>
+<?php
+include __DIR__ . '/../../templates/footer.php';
+?>

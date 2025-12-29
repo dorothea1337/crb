@@ -9,18 +9,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/header.css">
-    <link rel="stylesheet" href="assets/styles/footer.css">
-    <link rel="stylesheet" href="assets/styles/rimm.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/rimm.css">
 
 </head>
-<?php include 'header.php'; ?>
+
+<?php
+include __DIR__ . '/../../templates/header.php';
+?>
 
 <main>
         <section class="rimm-hero">
             <div class="container d-flex flex-row justify-content-between">
-                    <img src="assets/images/rimm/logo-rimm-white.svg" alt="Логотип РИММ белый | Консорциум Робототехники" class="col-3">
+                    <img src="<?= BASE_URL ?>assets/images/rimm/logo-rimm-white.svg" alt="Логотип РИММ белый | Консорциум Робототехники" class="col-3">
                     <div class="col-1"></div>
                     <div class="rimm-hero__texts col d-flex justify-content-between flex-column">
                         <p class="subheading-rimm">МЕЖДУНАРОДНЫЙ НАУЧНО-ТЕХНОЛОГИЧЕСКИЙ ФОРУМ</p>
@@ -32,11 +35,11 @@
         </section>
 
         <section class="rimm-content container">
-            <img src="assets/images/rimm/logo-rimm-color.svg" alt="Логотим РИММ | Консорциум Робототехники">
+            <img src="<?= BASE_URL ?>assets/images/rimm/logo-rimm-color.svg" alt="Логотим РИММ | Консорциум Робототехники">
             <p class="rimm-date">5-6 февраля 2026<br>Москва, Инновационный кластер «Ломоносов»</p>
             <p>Ежегодный международный научно-технологический форум «РОБОТОТЕХНИКА, ИНТЕЛЛЕКТ МАШИН И МЕХАНИЗМОВ»</p>
             <div class="row justify-content-between">
-                <img src="assets/images/rimm/banner-rimm.png" alt="Баннер-приглашение на форум РИММ | Консорциум Робототехники" class="col-4">
+                <img src="<?= BASE_URL ?>assets/images/rimm/banner-rimm.png" alt="Баннер-приглашение на форум РИММ | Консорциум Робототехники" class="col-4">
                 <div class="rimm-content__texts col d-flex flex-column justify-content-between">
                     <p>РИММ — уникальная отраслевая площадка, на которой представлены российские и международные партнеры по деятельности в сфере робототехнических комплексов и компонентной базы.</p>
                     <p>Цель форума — создание единой площадки для регулярного обсуждения ключевых вопросов развития робототехники, систем интеллектуального управления, технологий и компонентов в России.</p>
@@ -48,4 +51,6 @@
         
     </main>
 
-<?php include 'footer.php'; ?>
+<?php
+include __DIR__ . '/../../templates/footer.php';
+?>
