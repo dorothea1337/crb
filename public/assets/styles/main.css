@@ -82,6 +82,13 @@ p {
     width: 50%;
 }
 
+.h3{
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 131%;
+}
+
 
 
 /*-------- links --------*/
@@ -283,4 +290,16 @@ a {
 
 .carousel-item{
     height: max-content;
+}
+
+.logo-row{
+    margin-bottom: 75px;
+}
+
+.logo-row img{
+    cursor: pointer;
+}
+
+.logo-row-h2{
+    margin-bottom: 50px;
 }

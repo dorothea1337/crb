@@ -96,20 +96,40 @@ include __DIR__ . '/../../templates/header.php';
         <h2 class="h2">ИОГВ и госкорпорации</h2>
         <p>Государственные органы, корпорации и фонды, поддерживающие развитие технологий</p>
         <div class="row align-items-center">
-            <img src="../../public/assets/images/partners/state corps/minpromtorg.png" alt="НАУРР логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
-            <img src="../../public/assets/images/partners/state corps/roscosmos.png" alt="НАУРР логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
-            <img src="../../public/assets/images/partners/spheric-associations/creonomic.png" alt="НАУРР логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
-            <img src="../../public/assets/images/partners/spheric-associations/volga.png" alt="НАУРР логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/state corps/minpromtorg.png" alt="Минпромторг логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/state corps/fc-bac.png" alt="Федеральный центр беспилотных авиационных систем логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/state corps/eek.svg" alt="ЕЭК логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/state corps/roscosmos.png" alt="Роскосмос логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+        </div>
+        <div class="row align-items-center">
+            <img src="<?= BASE_URL ?>assets/images/partners/state corps/main-upr.png" alt="Главное управление инновационного развития Министерства обороны Российской Федерации логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/state corps/minpromtorg-kherson.png" alt="Минпромторг Херсонской области логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/state corps/edinaya-rossia.jpg" alt="Единая Россия логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/state corps/opora-rossii.png" alt="Опора России логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+        </div>
+        <div class="row align-items-center">
+            <img src="<?= BASE_URL ?>assets/images/partners/state corps/agency-tech-dev.svg" alt="Агенство по технологическому развитию логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/state corps/smpp.png" alt="Ступинское машиностроительное производственное предприятие логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
         </div>
     </section>
     <section class="container">
         <h2 class="h2">инфраструктурные решения</h2>
         <p>Организации, которые поддерживают Консорциум в смежных направлениях</p>
         <div class="row align-items-center">
-            <img src="../../public/assets/images/partners/spheric-associations/fc-ai-dev.png" alt="НАУРР логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
-            <img src="../../public/assets/images/partners/spheric-associations/m-group.svg" alt="НАУРР логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
-            <img src="../../public/assets/images/partners/spheric-associations/creonomic.png" alt="НАУРР логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
-            <img src="../../public/assets/images/partners/spheric-associations/volga.png" alt="НАУРР логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/infrastructure/expoelectronica.webp" alt="Expo Electronica логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/infrastructure/expoforum.svg" alt="Expoforum логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/infrastructure/innoprom.png" alt="Иннопром логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/infrastructure/big-industrial-week.png" alt="Большая промышленная неделя логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+        </div>
+        <div class="row align-items-center">
+            <img src="<?= BASE_URL ?>assets/images/partners/infrastructure/win.svg" alt="WIN логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/infrastructure/cemat.png" alt="Cemat логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/infrastructure/tech-congress.svg" alt="Международный технологический конгресс логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/infrastructure/agrobrics.png" alt="Agrobotics+ логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+        </div>
+        <div class="row align-items-center">
+            <img src="<?= BASE_URL ?>assets/images/partners/infrastructure/o-budustchem.svg" alt="О будущем логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
+            <img src="<?= BASE_URL ?>assets/images/partners/infrastructure/inventorus.svg" alt="Inventorus логотип | Консорциум робототехники и систем интеллектуального управления" class="col-3">
         </div>
     </section>
     <section class="container">
