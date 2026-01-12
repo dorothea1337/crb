@@ -10,6 +10,18 @@
     padding: 25px 0;
 }
 
+.footer__logo__link{
+    display: block;
+    max-width: 231px;
+    height: 50px;
+}
+
+.footer__logo__img{width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
 .footer__text{
     font-size: 16px;
 }

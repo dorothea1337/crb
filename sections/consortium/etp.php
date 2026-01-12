@@ -72,7 +72,7 @@ include __DIR__ . '/../../templates/header.php';
             <h2 class="h2">Участники ЕТП</h2>
 
             <div class="etp-participants__card row">
-                <img src="<?= BASE_URL ?>assets/images/header/crb_logo_header.png" alt="Консорциум робототехники и систем интеллектуального управления логотип | Консорциум Робототехники" class="col-3">
+                <img src="<?= BASE_URL ?>assets/images/header/crb_logo_header.svg" alt="Консорциум робототехники и систем интеллектуального управления логотип | Консорциум Робототехники" class="col-3">
                 <div class="col-1"></div>
                 <div class="col etp-participants__card__texts">
                     <h3 class="etp-participants__card__h3">Консорциум робототехники и систем интеллектуального управления – секретариат</h3>

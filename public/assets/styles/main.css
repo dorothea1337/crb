@@ -300,6 +300,26 @@ a {
     cursor: pointer;
 }
 
+.logo-row a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo-img{
+    max-width: 100%;
+    height: auto;
+}
+
 .logo-row-h2{
     margin-bottom: 50px;
+}
+
+.row-description{
+    margin-bottom: 50px;
+}
+
+.last-section{
+    margin-bottom: 75px;
 }

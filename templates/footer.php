@@ -1,7 +1,7 @@
 <footer class="<?= $section === 'ecosystem' ? 'footer-black' : 'footer' ?>">
         <div class="container">
             <div class="footer__top row">
-                <a class="col" href="<?= BASE_URL ?>"><img src="<?= BASE_URL ?>assets/images/footer/CRB_logo_footer.png"></a>
+                <a class="col footer__logo__link" href="<?= BASE_URL ?>"><img src="<?= BASE_URL ?>assets/images/footer/crb_logo_footer.png" class="footer__logo__img"></a>
                 <p class="col-8 hv-light footer__org-heading">Ассоциация "Промышленный Кластер "Консорциум РСИУ"</p>
             </div>
             <div class="footer__divider"></div>

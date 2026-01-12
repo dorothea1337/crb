@@ -135,7 +135,7 @@ include __DIR__ . '/../../templates/header.php';
 
         </div>
     </section>
-    <section class="container">
+    <section class="container last-section">
         <h2 class="h2 logo-row-h2">инфраструктурные решения (поддерживающие организации)</h2>
 
         <div class="row align-items-center logo-row">

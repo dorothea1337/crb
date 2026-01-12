@@ -8,12 +8,19 @@
     background-size: cover;
 
     margin: 0;
+
+    display: flex;
+    align-items: flex-end;
 }
 
 .participants-hero-inner{
     display: flex;
-    /* justify-content: baseline; */
     flex-direction: column;
+
+    margin-left: auto;
+    padding-bottom: 50px;
+
+    align-items: flex-end;
 }
 
 .participants-h1{

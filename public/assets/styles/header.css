@@ -9,6 +9,13 @@
     padding: 20px 0;
 }
 
+.header__img{
+    height: 33px;
+    width: 200px;
+
+    
+}
+
 .header__text-buttons{
     list-style: none;
 

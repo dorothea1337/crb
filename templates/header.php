@@ -1,7 +1,7 @@
 <body>
     <header class="header">
         <nav class="container header__container">
-            <a href="<?= BASE_URL ?>"><img src="<?= BASE_URL ?>assets/images/header/crb_logo_header.png" alt="Логотип | Консорциум робототехники"></a>
+            <a href="<?= BASE_URL ?>"><img src="<?= BASE_URL ?>assets/images/header/crb_logo_header.svg" alt="Логотип | Консорциум робототехники" class="header__img"></a>
 
             <ul class="header__text-buttons">
                 <li class="dropdown">
