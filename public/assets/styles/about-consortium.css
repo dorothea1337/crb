@@ -1,0 +1,125 @@
+.aboutCRB-hero{
+    margin-top: 0;
+    position: relative;
+}
+
+.custom-about-h1{
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 131%;
+    text-transform: uppercase;
+    color: #13566D;
+
+    margin-top: 20px;
+}
+
+.decor-block{
+    width: 50%;
+}
+
+.about{
+    width: 40%;
+}
+
+.about-hero__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 470px;
+}
+
+.about__card{
+    margin-top: 50px;
+}
+
+.about__card__content{
+    width: 80%;
+}
+
+.about__card__number{
+    font-size: 96px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    line-height: 142%;
+    text-transform: uppercase;
+    color: #13566D;
+    opacity: 0.5;
+}
+
+.about__card__h3{
+    font-size: 20px;
+}
+
+
+
+
+.aboutCRB-goals__container{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.aboutCRB-goals__goal-card{
+    background-color: #13566D;
+    color: white;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    box-sizing: border-box;
+}
+
+.goal-card__text{
+    max-width: 558px;
+    margin: 25px 0;
+}
+
+.goal-card__h3{
+    font-size: 24px;
+    font-family:'Helvetica';
+    font-weight:bold;
+}
+
+.aboutCRB-tasks__task{
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.task-icon{
+    display: block;
+}
+
+.task-text{
+    margin: 0;
+    line-height: 1.4;
+}
+
+.commetee__card{
+    border-bottom: 1px solid #13566D;
+    gap: 30px;
+
+    padding: 20px 0;
+}
+
+.commetees__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.commetee-h3{
+    font-size: 24px;
+}
+
+.aboutCRB-CTA__decor{
+    margin-bottom: 25px;
+}
+
+.aboutCRB-CTA__img{
+    display: block;
+}
