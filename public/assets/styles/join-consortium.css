@@ -1,0 +1,54 @@
+.join-consortium{
+    width: 100%;
+    min-height: 90vh;
+    
+    background-image: url(../images/join-consortium/join-bg.png);
+    background-repeat: repeat-y;
+    background-position: center top;   
+    background-size: cover;
+
+    margin: 0;
+    padding-top: 30px;
+}
+
+.join-consortium-section{
+    margin: 0 auto;
+}
+
+.join-h1{
+    margin: 0;
+    font-size: 40px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 131%;
+    text-transform: uppercase;
+}
+
+.quote-alike-black{
+    font-size: 24px;
+    border-left: 4px solid black;
+    font-family:'Helvetica';
+    font-weight:bold;
+    line-height: 163%;
+    color: black;
+
+    padding-left: 25px;
+
+    margin: 45px 0;
+}
+
+.form-container{
+    background-color: black;
+    color: white;
+
+    padding: 30px;
+    border-radius: 15px;
+}
+
+label{
+    font-size: 16px;
+    font-family:'Helvetica';
+    font-weight: 200;
+    line-height: 163%;
+}

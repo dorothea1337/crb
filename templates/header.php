@@ -42,7 +42,7 @@
             <ul class="header__text-buttons">
                 <li><a href="https://t.me/consortium_of_robotics" target="_blank"><img src="<?= BASE_URL ?>assets/images/header/telegram_logo_header.svg"></a></li>
                 <li><a href="https://vk.com/robotcontrol" target="_blank"><img src="<?= BASE_URL ?>assets/images/header/vk_logo_header.svg"></a></li>
-                <li><a class="hv-bold green-button s-green-button">Вступить</a></li>
+                <li><a class="hv-bold green-button s-green-button" href="<?= BASE_URL ?>join-consortium">Вступить</a></li>
             </ul>
         </nav>
     </header>
