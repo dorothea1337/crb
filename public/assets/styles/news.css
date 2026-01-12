@@ -1,0 +1,25 @@
+.news-hero{
+    width: 100%;
+    min-height: 70vh;
+    
+    background-image: url(../images/news/news-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;   
+    background-size: cover;
+
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.news-hero-inner{
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+
+    margin-left: auto;
+
+    align-items: flex-start;
+}

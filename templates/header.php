@@ -27,13 +27,13 @@
                         <li><a class="hv-bold dropdown-item" href="#">Российский инженерный класс</a></li>
                     </ul>
                 </li>
-                <li><a class="hv-bold header__text-button" href="#">Календарь мероприятий</a></li>
+                <li><a class="hv-bold header__text-button" href="<?= BASE_URL ?>calendar">Календарь мероприятий</a></li>
                 <li class="dropdown">
                     <a class="hv-bold header__text-button dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Пресс-центр</a>
 
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="hv-bold dropdown-item" href="#">Новости</a></li>
-                        <li><a class="hv-bold dropdown-item" href="#">СМИ о нас</a></li>
+                        <li><a class="hv-bold dropdown-item" href="<?= BASE_URL ?>press-center/news">Новости</a></li>
+                        <li><a class="hv-bold dropdown-item" href="<?= BASE_URL ?>press-center/smi-o-nas">СМИ о нас</a></li>
                     </ul>
                 </li>
                 <li><a class="hv-bold header__text-button" href="<?= BASE_URL ?>contacts">Контакты</a></li>
