@@ -1,5 +1,18 @@
 /*----------------   COMMON   ----------------*/
 
+::-webkit-selection {
+    background-color: #64D1D1;
+}
+
+::-moz-selection {
+    background-color: #64D1D1;
+}
+
+::selection {
+    background-color: #64D1D1;
+}
+
+
 section {
     margin-top: 70px;
 }
@@ -113,6 +126,15 @@ a {
     color: #0d3b4b;
 }
 
+.link-turquose-light{
+    text-decoration: underline;
+    color: #4ABBBB; 
+}
+
+.link-turquose-light:hover{
+    color: #348888;
+}
+
 .black-link{
     font-size: 20px;
     color: #000;
@@ -144,8 +166,6 @@ a {
 .white{
     color: #FFF;
 }
-
-
 
 /*----------------   FONTS   ----------------*/
 
@@ -221,6 +241,16 @@ a {
     width: 100%;
 }
 
+.btn-secondary{
+    background-color: #4ABBBB;
+    color: white;
+}
+
+.btn-secondary:hover{
+    background-color: #348888;
+    color: white;
+}
+
 .header__text-button.dropdown-toggle:focus,
 .header__text-button.dropdown-toggle:focus-visible,
 .header__text-button.dropdown-toggle:active {
@@ -256,6 +286,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.custom-small-btn{
+    height: 50px;
 }
 
 .btn-dark{

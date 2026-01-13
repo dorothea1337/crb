@@ -15,6 +15,22 @@
     margin: 0 auto;
 }
 
+.join__text-content{
+    flex: 6 0 0;
+    max-width: 50%;
+}
+
+.form-container{
+    background-color: black;
+    color: white;
+
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 41%;
+
+    flex: 4 0 0;
+}
+
 .join-h1{
     margin: 0;
     font-size: 40px;
@@ -23,6 +39,8 @@
     font-weight: 700;
     line-height: 131%;
     text-transform: uppercase;
+
+    margin-bottom: 40px;
 }
 
 .quote-alike-black{
@@ -38,17 +56,137 @@
     margin: 45px 0;
 }
 
-.form-container{
-    background-color: black;
-    color: white;
-
-    padding: 30px;
-    border-radius: 15px;
-}
-
-label{
+.application-form label{
     font-size: 16px;
     font-family:'Helvetica';
     font-weight: 200;
     line-height: 163%;
+
+    display: block;
+    width: 100%;
+}
+
+.form-field{
+    border-radius: 999px;
+    border: 1px solid #4ABBBB;
+    height: 40px;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 0 10px;
+}
+
+.form-h2{
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.form-field:focus{
+    border: 2px solid #4ABBBB;
+}
+
+.doc-btn__container{
+    gap: 10px;
+}
+
+.file-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    flex: 1;
+    min-width: 0;
+}
+
+.file-title{
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.file-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 44px;
+    width: 100%;
+    border-radius: 999px;
+    background-color: #4ABBBB;
+    color: white;
+
+    cursor: pointer;
+    position: relative;
+}
+
+.file-name-container {
+    margin-top: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 999px;
+    max-width: 100%;
+    overflow: hidden;
+
+    min-height: 35px;
+}
+
+.file-name-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.file-remove-btn {
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #ff6b6b;
+}
+
+
+.file-btn__check{
+    position: absolute;
+    right: 65px;
+    top: 10px;
+    font-size: 24px;
+    opacity: 0;
+    transition: 0.2s;
+
+    font-family:'Helvetica';
+    font-weight:normal;
+}
+
+.file-btn__text{
+    position: absolute;
+    right: 22px;
+    top: 10px;
+
+    width: auto;
+}
+
+.checkbox{
+    accent-color: #4ABBBB;
+}
+
+.form-button{
+    background-color: #4ABBBB;
+    color: white;
+
+    border-radius: 999px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+
+    border: 0px;
+    margin-top: 25px;
+}
+
+.form-button:hover{
+    background-color: #348888;
 }

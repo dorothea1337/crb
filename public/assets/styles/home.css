@@ -1,0 +1,107 @@
+.banners{
+    margin: 0;
+}
+
+.banner{
+    width: 100%;
+    min-height: 500px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.banner-1{
+    background-image: url(../images/home/banner-main.png);
+    background-position: left center;   
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.banner-h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.08rem;
+    font-size: 57px;
+
+    color: white;
+    width: 900px;
+
+    margin-bottom: 50px;
+}
+
+.banner-1-subheading{
+    font-size: 24px;
+}
+
+.banner-2{
+    background-image: url(../images/rimm/rimm-bg.png);
+    background-position: right center;   
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.banner-3{
+    background-image: url(../images/home/banner-presentation.png);
+    background-position: center;   
+
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.banner-4{
+    background-image: url(../images/home/banner-atlas.png);
+    background-position: center;   
+
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.home-custom-btn{
+    height: 70px;
+}
+
+.home__intro{
+    font-size: 24px;
+}
+
+.home__turquose-container{
+    background-color: #C7E0E9;
+    padding: 40px;
+
+    border-radius: 20px;
+
+    margin-bottom: 40px;
+}
+
+.home__turquose-container:hover{
+    background-color: #13566D;
+    color: white;
+}
+
+.home__event{
+    flex: 1;
+    gap: 15px;
+}
+
+.home__event:nth-child(n+2){
+    border-left: 1.5px solid currentColor;
+    padding-left: 40px;
+}
+
+.home__event:not(:last-child){
+    padding-right: 40px;
+}
+
+.mr-sm-icons {
+    gap: 15px;
+}
