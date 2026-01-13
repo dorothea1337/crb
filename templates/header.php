@@ -23,8 +23,8 @@
                         <li><a class="hv-bold dropdown-item rimm-dropdown" href="<?= BASE_URL ?>ecosystem/RIMM">РИММ-2026</a></li>
                         <li><a class="hv-bold dropdown-item" href="<?= BASE_URL ?>ecosystem/mir-robototekhniki">МИР Робототехники</a></li>
                         <li><a class="hv-bold dropdown-item" href="<?= BASE_URL ?>ecosystem/atlas">АТЛАС Робототехники</a></li>
-                        <li><a class="hv-bold dropdown-item" href="#">RUbot</a></li>
-                        <li><a class="hv-bold dropdown-item" href="#">Российский инженерный класс</a></li>
+                        <li><a class="hv-bold dropdown-item" href="<?= BASE_URL ?>ecosystem/rubot">RUbot</a></li>
+                        <li><a class="hv-bold dropdown-item" href="<?= BASE_URL ?>ecosystem/rik">Российский инженерный класс</a></li>
                     </ul>
                 </li>
                 <li><a class="hv-bold header__text-button" href="<?= BASE_URL ?>calendar">Календарь мероприятий</a></li>

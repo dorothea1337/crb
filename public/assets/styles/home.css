@@ -81,6 +81,8 @@
     border-radius: 20px;
 
     margin-bottom: 40px;
+
+    transition: 0.5s;
 }
 
 .home__turquose-container:hover{

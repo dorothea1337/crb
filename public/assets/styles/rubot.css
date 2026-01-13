@@ -1,0 +1,20 @@
+.rubot__hero{
+    width: 100%;
+    min-height: 50vh;
+    
+    background-image: url(../images/rubot/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;   
+    background-size: cover;
+
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+.rubot__content{
+    margin-bottom: 75px;
+
+    gap: 25px;
+}
