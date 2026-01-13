@@ -135,7 +135,7 @@ include __DIR__ . '/../templates/header.php';
 
 <section class="home__magazine container">
     <h2 class="h2">Журналы Мир Робототехники</h2>
-    <div class="d-flex flex-row justify-content-between">
+    <div class="d-flex flex-row justify-content-between mr-icons">
         <div class="d-flex flex-row mr-sm-icons">
             <a href="https://t.me/world_of_robotics" target="_blank"><img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/tg-logo.png" alt="Telegram логтип | Консорциум робототехники и систем интеллектуального управления"></a>
             <a href="https://vk.com/world_of_robotics" target="_blank"><img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/vk-logo.svg" alt="VK логтип | Консорциум робототехники и систем интеллектуального управления"></a>
@@ -145,10 +145,134 @@ include __DIR__ . '/../templates/header.php';
         <a href="https://www.ozon.ru/seller/zhurnal-mir-robototehniki-1097857/" target="_blank"><img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/ozon-logo.svg" alt="Ozon логтип | Консорциум робототехники и систем интеллектуального управления"></a>
     </div>
 
-    <div class="home__turquose-container">
-        
-    </div>
+    <div class="home__turquose-container-1">
+        <div id="mr-magazines-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    
+                    <div class="carousel-item active">
+                        <div class="row w-100 justify-content-end">
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-16.png" class="d-flex" alt="Журнал МИР Робототехники выпуск 16 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №16</h3>
+                                <p>Декабрь 2025</p>
+                            </div>
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-15.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 15 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №15</h3>
+                                <p>Ноябрь 2025</p>
+                            </div>
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-14.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 14 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №14</h3>
+                                <p>Сентябрь 2025</p>
+                            </div>
+                        </div>
+                    </div>
 
+                     <div class="carousel-item">
+                        <div class="row w-100 justify-content-end">
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-13.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 13 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №13</h3>
+                                <p>Июль 2025</p>
+                            </div>
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-12.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 12 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №12</h3>
+                                <p>Май 2025</p>
+                            </div>
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-11.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 11 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №11</h3>
+                                <p>Февраль 2025</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="carousel-item">
+                        <div class="row w-100 justify-content-end">
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-10.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 10 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №10</h3>
+                                <p>Декабрь 2024</p>
+                            </div>
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-9.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 9 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №9</h3>
+                                <p>Сентябрь 2024</p>
+                            </div>
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-8.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 8 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №8</h3>
+                                <p>Август 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="carousel-item">
+                        <div class="row w-100 justify-content-end">
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-7.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 7 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №7</h3>
+                                <p>Июнь 2024</p>
+                            </div>
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-6.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 6 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №6</h3>
+                                <p>Апрель 2024</p>
+                            </div>
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-5.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 5 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №5</h3>
+                                <p>Март 2024</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="carousel-item">
+                        <div class="row w-100 justify-content-end">
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-4.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 4 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №4</h3>
+                                <p>Декабрь 2023</p>
+                            </div>
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-3.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 3 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №3</h3>
+                                <p>Сентябрь 2025</p>
+                            </div>
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-2.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 2 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №2</h3>
+                                <p>Июль 2023</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row w-100 justify-content-center">
+                            <div class="magazine-bg col-md-3 d-flex flex-column align-items-center">
+                                <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-1.png" class="col-md-4" alt="Журнал МИР Робототехники выпуск 1 обложка | Консорциум робототехники и систем интеллектуального управления">
+                                <h3 class="h3">Выпуск №1</h3>
+                                <p>Апрель 2023</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#mr-magazines-carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mr-magazines-carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                </button>
+                
+            </div>
+            <a class="btn btn-dark l-btn custom-small-btn" href="https://roboticsworld.ru" target="_blank">Сайт журнала</a>
     </div>
 </section>
 
