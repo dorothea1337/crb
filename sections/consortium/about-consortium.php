@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/about-consortium.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
+
 
 
 </head>
@@ -22,7 +23,7 @@ include __DIR__ . '/../../templates/header.php';
 ?>
 
 <main>
-    <section class="container aboutCRB-hero d-flex flex-row align-items-start justify-content-between">
+    <section class="container aboutCRB-hero align-items-start justify-content-between">
         <div class="decor-block">
             <h1 class="custom-about-h1">О Консорциуме</h1>
             <img src="<?= BASE_URL ?>assets/images/about-crb/about-crb__hero-robot.png" alt="Робот, изображение сгенерировано искусственным интеллектом | Консорциум робототехники и систем интеллектуального управления" class="about-hero__img">
@@ -115,35 +116,35 @@ include __DIR__ . '/../../templates/header.php';
         <p>Именно в комитетах рождаются идеи, которые становятся реальными проектами, продуктами и решениями, меняющими промышленность, образование и повседневную жизнь.</p>
         <div class="commetees__container">
             <div class="commetee__card d-flex flex-row align-items-center">
-                <img src="<?= BASE_URL ?>assets/images/about-crb/commetee-1.png">
+                <img src="<?= BASE_URL ?>assets/images/about-crb/commetee-1.png" class="commetee__img">
                 <div class="commetee__card__texts">
                     <h3 class="hv-bold turquose-dark commetee-h3">Промышленная и сервисная робототехника</h3>
                     <p>Работа комитета направлена на ускорение внедрения отечественных роботизированных систем в промышленность и быт.</p>
                 </div>
             </div>
             <div class="commetee__card d-flex flex-row align-items-center">
-                <img src="<?= BASE_URL ?>assets/images/about-crb/commetee-2.png">
+                <img src="<?= BASE_URL ?>assets/images/about-crb/commetee-2.png" class="commetee__img">
                 <div class="commetee__card__texts">
                     <h3 class="hv-bold turquose-dark commetee-h3">Компоненты и технологии</h3>
                     <p>Комитет развивает элементную базу робототехники — датчики, приводы, контроллеры и другие компоненты. </p>
                 </div>
             </div>
             <div class="commetee__card d-flex flex-row align-items-center">
-                <img src="<?= BASE_URL ?>assets/images/about-crb/commetee-3.png">
+                <img src="<?= BASE_URL ?>assets/images/about-crb/commetee-3.png" class="commetee__img">
                 <div class="commetee__card__texts">
                     <h3 class="hv-bold turquose-dark commetee-h3">Интеллектуальные системы и микроэлектроника</h3>
                     <p>Занимается разработкой систем управления на основе ИИ и отечественной микроэлектроники.</p>
                 </div>
             </div>
             <div class="commetee__card d-flex flex-row align-items-center">
-                <img src="<?= BASE_URL ?>assets/images/about-crb/commetee-4.png">
+                <img src="<?= BASE_URL ?>assets/images/about-crb/commetee-4.png" class="commetee__img">
                 <div class="commetee__card__texts">
                     <h3 class="hv-bold turquose-dark commetee-h3">Образовательная робототехника и подготовка кадров</h3>
                     <p>Реализует концепцию непрерывного инженерного образования — от детского сада до профессиональной переподготовки.</p>
                 </div>
             </div>
             <div class="commetee__card d-flex flex-row align-items-center">
-                <img src="<?= BASE_URL ?>assets/images/about-crb/commetee-5.png">
+                <img src="<?= BASE_URL ?>assets/images/about-crb/commetee-5.png" class="commetee__img">
                 <div class="commetee__card__texts">
                     <h3 class="hv-bold turquose-dark commetee-h3">Стандартизация и регулирование</h3>
                     <p>Формирует единые требования к безопасности и качеству автономных машин, разрабатывает стандарты на основе международных практик и сотрудничает с зарубежными организациями.</p>
@@ -156,7 +157,7 @@ include __DIR__ . '/../../templates/header.php';
     <section class="container aboutCRB-CTA last-section">
         <p>Комитеты — это невидимая опора будущего робототехники в России. Здесь, за закрытыми дверями совещаний, рождаются решения, которые потом меняют промышленность, транспорт, образование и быт.</p>
         <p class="quote-alike">Мы верим: движение вперёд начинается с понимания того, как устроены механизмы, которые его обеспечивают</p>
-        <div class="d-flex flex-row align-items-center aboutCRB-CTA__decor">
+        <div class="aboutCRB-CTA__decor">
             <p class="aboutCRB-CTA__text">Хотите узнать больше? Скачайте презентацию Консорциума — всё о миссии, структуре и планах в одном документе.</p>
             <img src="<?= BASE_URL ?>assets/images/about-crb/robotic-hand-decor.png" class="aboutCRB-CTA__img">
         </div>

@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/atlas.css">
+
 
 
 </head>
@@ -28,8 +29,8 @@ include __DIR__ . '/../../templates/header.php';
                 <p class="white hv-light">Атлас - это комплексный инструмент для анализа рынка робототехники стран ЕАЭС. </p>
                 <p class="white hv-light">Атлас робототехники включает в себя данные о ключевых игроках, технологиях, поддержке и доступных ресурсах в отрасли на территории стран ЕАЭС.</p>
                 <p class="white hv-light">Его цель — упростить доступ к важной информации для разработчиков, интеграторов и потребителей робототехники, а также стимулировать рост российской робототехники.</p>
-                <div class="d-flex flex-row justify-content-between atlas-buttons">
-                    <a class="btn-light l-btn flex-grow-1" href="https://disk.360.yandex.ru/i/d-F2OFwaFl6zdg" target="_blank">Скачать презентацию</a>
+                <div class="atlas-buttons">
+                    <a class="btn-light l-btn flex-grow-1 atlas__btn" href="https://disk.360.yandex.ru/i/d-F2OFwaFl6zdg" target="_blank">Скачать презентацию</a>
                     <a class="l-btn btn-light flex-grow-1" href="https://vk.com/video-227546802_456239037" target="_blank">Видео с презентации на РЭФ</a>
                 </div>
 

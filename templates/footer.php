@@ -2,28 +2,31 @@
         <div class="container">
             <div class="footer__top row">
                 <a class="col footer__logo__link" href="<?= BASE_URL ?>"><img src="<?= BASE_URL ?>assets/images/footer/crb_logo_footer.png" class="footer__logo__img"></a>
-                <p class="col-8 hv-light footer__org-heading">Ассоциация "Промышленный Кластер "Консорциум РСИУ"</p>
+                <p class="col-8 hv-light m-0 org-heading-desktop">Ассоциация "Промышленный Кластер "Консорциум РСИУ"</p>
             </div>
             <div class="footer__divider"></div>
-            <div class="footer__main row align-items-start">
-                <div class="col">
+            <div class="footer__main align-items-start d-flex flex-row">
+                <div class="footer__left">
+                    <p class="hv-light org-heading-mobile">Ассоциация "Промышленный Кластер "Консорциум РСИУ"</p>
                     <p class="hv-light footer__text">ОГРН: 1217800069794<br>ИНН: 7801698870<br>КПП: 780101001</p>
                     <a href="https://disk.360.yandex.ru/i/mjGgSVDquECw8A" target="_blank" class="footer__link link_white hv-light">Политика конфиденциальности</a><br>
                     <a href="https://disk.360.yandex.ru/i/UnZLabnNyhQzEA" target="_blank" class="footer__link link_white hv-light">Согласие на обработку персональных данных</a>
                 </div>
-                <div class="col">
-                    <h5><a href="<?= BASE_URL ?>contacts" class="link_white hv-regular">Контакты</a></h5>
-                    <a href="tel:+79602322676" class="hv-light footer__link link_white">+7 (960) 232-26-76</a><br>
-                    <a href="tel:+79811262000" class="hv-light footer__link link_white">+7 (981) 126-20-00</a><br>
-                    <a href="tel:+79650415041" class="hv-light footer__link link_white">+7 (965) 041-50-41</a><br>
-                    <a href="mailto:info@robot-control.ru" class="hv-light footer__link link_white">info@robot-control.ru</a>
-                </div>
-                <div class="col">
-                    <h5>Почтовый адрес</h5>
-                    <p class="hv-light footer__text">197022, Санкт-Петербург, а/я 56</p>
+                <div class="footer__right">
+                    <div class="footer__right__column">
+                        <h5><a href="<?= BASE_URL ?>contacts" class="link_white hv-regular">Контакты</a></h5>
+                        <a href="tel:+79602322676" class="footer__link link_white hv-light">+7 (960) 232-26-76</a><br>
+                        <a href="tel:+79811262000" class="footer__link link_white hv-light">+7 (981) 126-20-00</a><br>
+                        <a href="tel:+79650415041" class="footer__link link_white hv-light">+7 (965) 041-50-41</a><br>
+                        <a href="mailto:info@robot-control.ru" class="hv-light footer__link link_white">info@robot-control.ru</a>
+                    </div>
+                    <div class="footer__right__column">
+                        <h5 class="hv-regular">Почтовый адрес</h5>
+                        <p class="hv-light footer__text">197022, Санкт-Петербург, а/я 56</p>
 
-                    <h5>Адрес в Москве</h5>
-                    <p class="hv-light footer__text">Москва, Осенний бульвар, дом 23, БЦ «Крылатский»</p>
+                        <h5 class="hv-regular">Адрес в Москве</h5>
+                        <p class="hv-light footer__text">Москва, Осенний бульвар, дом 23, БЦ «Крылатский»</p>
+                    </div>
                 </div>
             </div>
         </div>

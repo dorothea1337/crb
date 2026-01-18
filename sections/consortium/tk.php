@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/tk.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
+
 
 </head>
 
@@ -24,9 +25,9 @@ include __DIR__ . '/../../templates/header.php';
         <section class="container tk">
             <h1 class="mrrt-bold h1 turquose-dark tk-h1">ТК 141 ПК 3</h1>
             <p class="quote-alike">Подкомитет ПК 3 "Промышленная робототехника" технического комитета по стандартизации 141 "Робототехника"</p>
-            <div class="content row align-items-start">
-                <img src="<?= BASE_URL ?>assets/images/tk/tk__tk-image.png" class="col-4">
-                <div class="col">
+            <div class="tk__content">
+                <img src="<?= BASE_URL ?>assets/images/tk/tk__tk-image.png" class="tk__logo">
+                <div class="tk__text">
                     <p class="hv-light">В структуре <a href="https://tk141.rtc.ru" target="_blank" class="link">технического комитета по стандартизации ТК 141 "Робототехника"</a> приказом Росстандарта выделен подкомитет ПК 3 "Промышленная робототехника" на базе Консорциума робототехники и систем интеллектуального управления.</p>
                     <p class="hv-light">Приглашаем экспертное сообщество подключиться к работе профильного подкомитета по стандартизации и войти в его состав.</p>
                     <p class="hv-light">Для этого необходимо направить заявку на вступление Вашей организации в состав ПК 3 в Консорциум робототехники и систем интеллектуального управления на адрес электронной почты: <a href="mailto:info@robot-control.ru" class="link">info@robot-control.ru.</a></p>
@@ -36,12 +37,12 @@ include __DIR__ . '/../../templates/header.php';
 
         <section class="container tk-contacts">
             <h2 class="h2-green">Контактные лица</h2>
-            <div class="content row">
-                <div class="col-4">
+            <div class="tk__contacts__inner">
+                <div class="tk__contact">
                     <p class="hv-light">Бодрова Майя Михайловна </p>
                     <a href="tel:+79650415041" class="link black-link">+7 (965) 041-50-41</a>
                 </div>
-                <div class="col">
+                <div class="tk__contact">
                     <p class="hv-light">Куртышева Мария Петровна</p>
                     <a href="tel:+79602322676" class="link black-link">+7 (960) 232-26-76</a>
                 </div>

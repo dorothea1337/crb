@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/rubot.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
 
 
 </head>
@@ -28,8 +28,8 @@ include __DIR__ . '/../../templates/header.php';
         </div>
     </section>
 
-    <section class="container">
-        <img class="w-25" src="<?= BASE_URL ?>assets/images/rubot/rubot_logo.svg">
+    <section class="container m-0">
+        <img class="rubol__logo" src="<?= BASE_URL ?>assets/images/rubot/rubot_logo.svg">
         <p>Маркетплейс RUBOT – это специализированный агрегатор решений российских производителей в области робототехники.</p>
         <p>Он представляет собой экосистему ресурсов взаимодействия в части продажи или покупки готовых изделий, систем и компонентов, программного обеспечения разнообразных производителей и поставщиков.</p>
         

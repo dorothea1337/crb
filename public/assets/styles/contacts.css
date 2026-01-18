@@ -11,7 +11,39 @@
     margin-bottom: 75px;
 }
 
-.contacts__photo{
+.director__photo{
     border-radius: 999px;
+    display: block;
+    max-width: 40%;
+
 }
 
+.director__text{
+    max-width: 50%;
+}
+
+.director{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 30px;
+}
+
+@media (max-width: 767px) {
+    .contacts-h2{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576.98px){
+    .director{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .director__text, .director__photo{
+        max-width: 100%;
+    }
+}

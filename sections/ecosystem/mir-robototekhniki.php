@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/mr.css">
 
 </head>
@@ -21,10 +21,11 @@ include __DIR__ . '/../../templates/header.php';
 ?>
 
 <main>
-        <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/cover.png" class="mr-hero__bg-img">
-        <div class="container">
-            <h1 class="h1-white mrrt-bold mr-h1">Журнал МИР Робототехники</h1>
-        </div>
+        <section class="mr__hero">
+            <div class="container">
+                <h1 class="h1-white mrrt-bold mr-h1">Журнал МИР Робототехники</h1>
+            </div>
+        </section>        
         
         <section class="about-mr container">           
             <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-logo.svg" alt="Логотип Мир Робототехники | Консорциум Робототехники" class="mr-logo">
@@ -34,8 +35,8 @@ include __DIR__ . '/../../templates/header.php';
             <p><a href="https://www.ozon.ru/seller/zhurnal-mir-robototehniki-1097857/" target="_blank" class="link black-link">На печатных страницах журнала</a>, в <a href="https://vk.com/world_of_robotics" target="_blank" class="link black-link">VK</a>, а также в каналах мессенджеров <a href="https://max.ru/world_of_robotics" target="_blank" class="link black-link">Max</a> и <a href="https://t.me/world_of_robotics" target="_blank" class="link black-link">Telegram</a> у всех желающих есть возможность рассказать о своих идеях, планах и новых образцах робототехники отраслевому сообществу, участникам профильных выставок и форумов, потенциальным заказчикам и инвесторам.</p>
             <a class="btn btn-dark l-btn mrgn-btn" href="https://roboticsworld.ru/subscribe/" target="_blank">Подписаться на журнал</a>
 
-            <div class="d-flex flex-row justify-content-between">
-                <div class="d-flex flex-row mr-sm-icons">
+            <div class="mr-icons">
+                <div class="mr-sm-icons">
                     <a href="https://t.me/world_of_robotics" target="_blank"><img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/tg-logo.png" alt="Telegram логтип | Консорциум робототехники и систем интеллектуального управления"></a>
                     <a href="https://vk.com/world_of_robotics" target="_blank"><img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/vk-logo.svg" alt="VK логтип | Консорциум робототехники и систем интеллектуального управления"></a>
                     <a href="https://max.ru/world_of_robotics" target="_blank"><img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/max-logo.svg" alt="MAX логтип | Консорциум робототехники и систем интеллектуального управления"></a>
@@ -101,6 +102,85 @@ include __DIR__ . '/../../templates/header.php';
                         <span class="visually-hidden">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#mr-magazines-carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div id="mr-magazines-carousel-mobile" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    
+                    <div class="carousel-item active">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-16.png" class="w-100" alt="Журнал МИР Робототехники выпуск 16 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-15.png" class="w-100" alt="Журнал МИР Робототехники выпуск 15 обложка | Консорциум робототехники и систем интеллектуального управления">
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-14.png" class="w-100" alt="Журнал МИР Робототехники выпуск 14 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                     <div class="carousel-item">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-13.png" class="w-100" alt="Журнал МИР Робототехники выпуск 13 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                    <div class="carousel-item">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-12.png" class="w-100" alt="Журнал МИР Робототехники выпуск 12 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                    <div class="carousel-item">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-11.png" class="w-100" alt="Журнал МИР Робототехники выпуск 11 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                     <div class="carousel-item">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-10.png" class="w-100" alt="Журнал МИР Робототехники выпуск 10 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                    <div class="carousel-item">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-9.png" class="w-100" alt="Журнал МИР Робототехники выпуск 9 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                    <div class="carousel-item">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-8.png" class="w-100" alt="Журнал МИР Робототехники выпуск 8 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                     <div class="carousel-item">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-7.png" class="w-100" alt="Журнал МИР Робототехники выпуск 7 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                    <div class="carousel-item">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-6.png" class="w-100" alt="Журнал МИР Робототехники выпуск 6 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                    <div class="carousel-item">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-5.png" class="w-100" alt="Журнал МИР Робототехники выпуск 5 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                     <div class="carousel-item">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-4.png" class="w-100" alt="Журнал МИР Робототехники выпуск 4 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                    <div class="carousel-item">
+                            <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-3.png" class="w-100" alt="Журнал МИР Робототехники выпуск 3 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-2.png" class="w-100" alt="Журнал МИР Робототехники выпуск 2 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="<?= BASE_URL ?>assets/images/mir-robototekhniki/mr-magazine-1.png" class="w-100" alt="Журнал МИР Робототехники выпуск 1 обложка | Консорциум робототехники и систем интеллектуального управления">
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#mr-magazines-carousel-mobile" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#mr-magazines-carousel-mobile" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>

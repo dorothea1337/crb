@@ -1,3 +1,18 @@
+.mr__hero{
+    width: 100%;
+    min-height: 50vh;
+    
+    background-image: url(../images/mir-robototekhniki/cover.png);
+    background-repeat: no-repeat;
+    background-position: left center;   
+    background-size: cover;
+
+    margin: 0;
+
+    display: flex;
+    align-items: flex-start;
+}
+
 .about-mr{
     margin-top: 50px;
 }
@@ -16,6 +31,7 @@
 
 .mr-logo{
     margin-bottom: 25px;
+    max-width: 100%;
 }
 
 .mrgn-btn{
@@ -23,13 +39,82 @@
     margin-bottom: 25px;
 }
 
+.mr-icons{
+    margin-bottom: 25px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .mr-sm-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
     gap: 15px;
+}
+
+.mr-icon{
+    width: auto;
+    height: auto;
 }
 
 .carousel{
     margin: 25px auto;
 }
 
+#mr-magazines-carousel .carousel-control-prev,
+#mr-magazines-carousel .carousel-control-next,
+#mr-magazines-carousel-mobile .carousel-control-prev,
+#mr-magazines-carousel-mobile .carousel-control-next  {
+    width: 48px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 0 20px;
+}
 
+#mr-magazines-carousel .carousel-control-prev-icon,
+#mr-magazines-carousel .carousel-control-next-icon,
+#mr-magazines-carousel-mobile .carousel-control-prev-icon,
+#mr-magazines-carousel-mobile .carousel-control-next-icon {
+    filter: invert(1);
+}
+
+#mr-magazines-carousel{
+    display: block;
+}
+
+#mr-magazines-carousel-mobile{
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+    .mr-h1{
+        font-size: 28px;
+    }
+
+    .mr-icons{
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 20px;
+    }
+
+    .mr-icon{
+        height: 30px;
+        width: auto;
+    }
+
+    #mr-magazines-carousel{
+        display: none;
+    }
+
+    #mr-magazines-carousel-mobile{
+        display: block;
+    }
+}
 

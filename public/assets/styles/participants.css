@@ -4,7 +4,7 @@
     
     background-image: url(../images/participants/hero-bg.png);
     background-repeat: no-repeat;
-    background-position: left center;   
+    background-position: center;   
     background-size: cover;
 
     margin: 0;
@@ -28,7 +28,6 @@
 .participants-h1{
     width: 50%;
 }
-
 
 .modal-xl-custom {
     max-width: 1200px;
@@ -93,4 +92,10 @@
     bottom: 50px;
     width: 437px;
     z-index: 2;
+}
+
+@media (max-width: 767.98px) {
+    .participants-hero-inner{
+        align-items: flex-start;
+    }
 }

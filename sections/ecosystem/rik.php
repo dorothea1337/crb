@@ -9,10 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/rik.css">
+
 
 
 </head>
@@ -35,10 +36,13 @@ include __DIR__ . '/../../templates/header.php';
             <p>Российский Инженерный класс использует новый подход к организации непрерывного процесса подготовки и предпрофильной инженерно-технической подготовки инженерных кадров, благодаря чему воспитываются ценности технических профессий и происходит адаптация учебного процесса под потребности региона и индустриального заказчика.</p>
             <p>РИК ориентирован на достижение целевых показателей национальных проектов «Демография», «Кадры», «Молодежь и дети».</p>
         </div>
-        <div class="d-flex flex-row justify-content-between">
-            <img src="<?= BASE_URL ?>assets/images/rik/child-studying.jpg" class="rik__image">
+        <div class="rik__contnent">
+            <div class="rik__image-wrap">
+                <img src="<?= BASE_URL ?>assets/images/rik/child-studying.jpg" class="rik__image">
+
+            </div>
             <div class="d-flex flex-column rik__text-w-logo">
-                <img src="<?= BASE_URL ?>assets/images/rik/rik-logo.png" class="w-50">
+                <img src="<?= BASE_URL ?>assets/images/rik/rik-logo.png" class="rik__logo">
                 <h2 class="h2 m-0">Программы обучения</h2>
                 <p>Развитие компетенций будущих инженеров</p>
                 <p>Разработка и внедрение новых программ и методик обучения</p>

@@ -32,16 +32,42 @@
     gap: 25px;
 }
 
-.rik__image {
+.rik__contnent{
     display: flex;
-    max-width: 50%;
-    height: auto;
+    flex-direction: row;
+    align-content: flex-start;
+    gap: 20px;
+}
 
+.rik__image-wrap {
+    flex: 0 0 50%;
+}
+
+.rik__image {
+    width: 100%;
+    height: auto;
+    display: block;
     border-radius: 15px;
 }
 
 .rik__text-w-logo {
-    max-width: 45%;
-
+    flex: 1 1 50%;
+    min-width: 0;
     gap: 15px;
+}
+
+.rik__logo{
+    max-width: 50%;
+}
+
+@media (max-width: 767.98px){
+    .rik__contnent{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 567.98px){
+    .rik__logo{
+        max-width: 100%;
+    }
 }

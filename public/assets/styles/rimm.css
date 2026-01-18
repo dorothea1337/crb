@@ -1,6 +1,6 @@
 .rimm-hero{
     width: 100%;
-    min-height: 55vh;
+    min-height: 65vh;
     
     background-image: url(../images/rimm/rimm-bg.png);
     background-repeat: no-repeat;
@@ -8,12 +8,31 @@
     background-size: cover;
 
     margin: 0;
+    padding: 30px 0;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 25px;
+}
+
+.rimm-hero__inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+
+.rimm-hero__logo{
+    max-width: 30%;
+}
+
+.rimm-hero__texts{
+    max-width: 65%;
 }
 
 .subheading-rimm{
@@ -37,6 +56,8 @@
 .rimm-btn{
     background: linear-gradient(to right, #BE2E33, #3D3970);
     color: white;
+
+    margin-bottom: 20px;
 }
 
 .rimm-btn:hover{
@@ -62,4 +83,76 @@
 
 .rimm-content{
     margin-bottom: 75px;
+}
+
+.rimm-content__logo{
+    max-width: 100%;
+}
+
+.rimm__main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 30px;
+}
+
+.rimm__poster{
+    width: 100%;
+}
+
+@media (max-width: 991.98px){
+    .rimm-hero__inner{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .rimm-hero__logo{
+        max-width: 20%;
+    }
+
+    .rimm-hero__texts{
+        max-width: 100%;
+    }
+
+    .rimm-hero__inner{
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .rimm-h1{
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 767.98px) {
+    .rimm-h1{
+        font-size: 32px;
+    }
+    
+    .rimm-hero{
+        height: 70vh;
+    }
+    
+    .rimm__main{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 567.98px) {
+    .rimm-h1{
+        font-size: 28px;
+    }
+
+    .rimm-hero{
+        background-position: center;
+        height: 70vh;
+    }
+    
+    .rimm__main{
+        flex-direction: column;
+    }
 }

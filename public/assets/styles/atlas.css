@@ -17,10 +17,27 @@
 }
 
 .atlas-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
     gap: 20px;
     margin: 50px auto;
 }
 
 .atlas-logo{
     margin-bottom: 25px;
+    max-width: 100%;
+}
+
+@media (max-width: 776.98px) {
+    .atlas-buttons{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .atlas-h1{
+        font-size: 30px;
+    }
 }

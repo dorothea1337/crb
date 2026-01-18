@@ -1,29 +1,30 @@
 .etp-hero{
-    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    
+    background-image: url(../images/etp/etp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;   
+    background-size: cover;
+
     margin: 0;
-    border: 1px solid transparent;
+
+    padding: 50px 0;
+
+    display: flex;
+
 }
 
-.etp-bg{
-    position: absolute;
-    width: 100vw;
-    height: auto;
-    top:0;
-    z-index: -1;
-}
-
-.etp-h1{
-    margin-top: 100px;
-}
-
-.etp-hero__logos{
-    border-top: 1px solid white;
-
-    margin-top: 150px;
+.etp-content{
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    padding-top: 25px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.etp__eek-logo{
+    width: 30%;
+    margin-bottom: 20px;
 }
 
 .etp-h3{
@@ -41,6 +42,22 @@
 
 }
 
+.etp-tasks{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+
+    max-width: 100%;
+}
+
+.etp-tasks__card{
+    width: 100%;
+}
+
+.etp-tasks__img{
+    width: 100%;
+}
+
 .etp-participants{
     display: flex;
     flex-direction: column;
@@ -50,6 +67,69 @@
     margin-bottom: 75px;
 }
 
-.etp-participants__card img{
-    height: 100%;
+.etp-participants__card{
+    display: flex;
+    flex-direction: row;
+
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.etp-participant__logo{
+    width: 25%;
+    margin: 0;
+}
+
+.etp-participants__card__texts{
+    width: 65.7%;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .etp__eek-logo{
+        width: 60%;
+    }
+    
+    .etp-tasks{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+
+    .etp-participants__card__h3{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .etp__eek-logo{
+        width: 80%;
+    }
+    
+    .etp-tasks{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+
+    .etp-participants__card{
+        flex-direction: column;
+    }
+
+    .etp-participant__logo{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .etp-participants__card__texts{
+        width: 100%;
+    }
+
+    .etp-participants__card__h3{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 567.98px) {
+    .etp-h1{
+        font-size: 30px;
+    }
+    
 }

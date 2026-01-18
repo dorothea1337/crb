@@ -4,7 +4,7 @@
 
 .banner{
     width: 100%;
-    min-height: 500px;
+    min-height: 65vh;
     
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,6 +19,14 @@
     align-items: center;
     justify-content: center;
     gap: 25px;
+}
+
+.banner-1__wrap{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+
+    border: 1px solid rebeccapurple;
 }
 
 .banner-h1{
@@ -38,14 +46,58 @@
     font-size: 24px;
 }
 
-.banner-2{
+.rimm-hero{
+    width: 100%;
+    
     background-image: url(../images/rimm/rimm-bg.png);
+    background-repeat: no-repeat;
     background-position: right center;   
+    background-size: cover;
 
+    margin: 0;
+    padding: 30px 0;
+
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 25px;
+}
+
+.rimm-hero__inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+
+.rimm-hero__logo{
+    max-width: 30%;
+}
+
+.rimm-hero__texts{
+    max-width: 65%;
+}
+
+.subheading-rimm{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 131%;
+    color: white;
+
+    letter-spacing: -2%;
+}
+
+.rimm-h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 131%;
+
+    font-size: 48px;
+    color: white;
 }
 
 .banner-3{
@@ -59,7 +111,7 @@
 
 .banner-4{
     background-image: url(../images/home/banner-atlas.png);
-    background-position: center;   
+    background-position: center right;   
 
     align-items: center;
     justify-content: center;
@@ -105,9 +157,15 @@
     background-color: #13566D;
 }
 
+.home__events-container{
+    display: flex;
+    flex-direction: row;
+}
+
 .home__event{
     flex: 1;
     gap: 15px;
+    width: 30%;
 }
 
 .home__event:nth-child(n+2){
@@ -121,6 +179,24 @@
 
 .mr-icons{
     margin-bottom: 25px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mr-sm-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    gap: 15px;
+}
+
+.mr-icon{
+    width: auto;
+    height: auto;
 }
 
 #mr-magazines-carousel {
@@ -173,7 +249,275 @@
     font-size: 24px;
 }
 
-
-.mr-sm-icons {
-    gap: 15px;
+.home__desktop-magazines-carousel{
+    display: block;
 }
+
+.home__tablet-magazines-carousel{
+    display: none;
+}
+
+.home__mobile-magazines-carousel{
+    display: none;
+}
+
+@media (max-width: 991.98px){
+    .rimm-hero{
+        height: 630px;
+    }
+    
+    .rimm-hero__inner{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .rimm-hero__logo{
+        max-width: 20%;
+    }
+
+    .rimm-hero__texts{
+        max-width: 100%;
+    }
+
+    .rimm-hero__inner{
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .rimm-h1{
+        font-size: 40px;
+    }
+
+    .rimm-hero{
+        height: 630px;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 767.98px) {
+    .rimm-h1{
+        font-size: 32px;
+    }
+    
+    .rimm-hero{
+        height: 630px;
+    }
+    
+    .rimm__main{
+        flex-direction: column;
+    }
+
+    
+}
+
+@media (max-width: 567.98px) {
+    .rimm-h1{
+        font-size: 28px;
+    }
+
+    .rimm-hero{
+        background-position: center;
+        height: 630px;
+    }
+    
+    .rimm__main{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1199.98px) {
+    .home__desktop-magazines-carousel{
+        display: none;
+    }
+
+    .home__tablet-magazines-carousel{
+        display: block;
+    }
+
+    .home__mobile-magazines-carousel{
+        display: none;
+    }
+
+    #mr-magazines-carousel-tablet .carousel-control-prev,
+    #mr-magazines-carousel-tablet .carousel-control-next {
+        position: absolute;
+        bottom: 0; 
+        width: 48px;
+        height: 48px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        opacity: 1;
+
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #mr-magazines-carousel-tablet .carousel-control-prev {
+        left: 0;
+    }
+
+    #mr-magazines-carousel-tablet .carousel-control-next {
+        right: auto;
+        left: 90px;
+    }
+
+    #mr-magazines-carousel-tablet .carousel-control-prev-icon,
+    #mr-magazines-carousel-tablet .carousel-control-next-icon {
+        filter: invert(1);
+    }
+}
+
+@media (max-width: 991.98px) {
+    
+    .banner{
+        width: 100%;
+        min-height: 630px;
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+    }
+
+    .banner-h1{
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: -0.08rem;
+        font-size: 10px;
+
+        color: white;
+        width: 900px;
+
+        margin-bottom: 50px;
+    }
+
+    .banner-1-subheading{
+        font-size: 24px;
+    }
+
+    .banner-3{
+        background-image: url(../images/home/banner-presentation-mobile.png);
+        background-position: center;   
+
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .banner-4{
+        background-image: url(../images/home/banner-atlas-mobile.png);
+        background-position: center right;   
+
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .home__intro{
+        font-size: 20px;
+    }
+
+    .home__turquose-container {
+        padding: 30px;
+    }
+
+    .home__turquose-container-1{
+        padding: 30px;
+    }
+
+    .home__events-container {
+        flex-direction: column;
+    }
+
+    .home__event{
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+
+    .home__event:nth-child(n+2) {
+        border: none;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .home__event:not(:last-child){
+        border-bottom: 1.5px solid currentColor;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .l-btn {
+        font-size: 16px;
+        height: 55px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .banner-1{
+        background-image: url(../images/home/banner-main-mobile.png);
+        background-position: left bottom;   
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+    }
+    
+    .mr-icons{
+        flex-direction: column;
+        align-items: flex-start;
+
+        gap: 20px;
+    }
+
+    .mr-icon{
+        height: 30px;
+        width: auto;
+    }
+    
+    .home__desktop-magazines-carousel {
+        display: none;
+    }
+
+    .home__tablet-magazines-carousel{
+        display: none;
+    }
+
+    .home__mobile-magazines-carousel{
+        display: block;
+
+        padding-bottom: 60px;
+        margin-bottom: 10px;
+    }
+
+    #mr-magazines-carousel-mobile .carousel-control-prev,
+    #mr-magazines-carousel-mobile .carousel-control-next {
+        position: absolute;
+        bottom: 0; 
+        width: 48px;
+        height: 48px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        opacity: 1;
+
+        top: auto;
+        transform: none
+    }
+
+    #mr-magazines-carousel-mobile .carousel-control-prev {
+        left: 0;
+    }
+
+    #mr-magazines-carousel-mobile .carousel-control-next {
+        right: 0;
+    }
+
+    #mr-magazines-carousel-mobile .carousel-control-prev-icon,
+    #mr-magazines-carousel-mobile .carousel-control-next-icon {
+        filter: invert(1);
+    }
+}
+

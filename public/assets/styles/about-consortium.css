@@ -1,6 +1,10 @@
 .aboutCRB-hero{
     margin-top: 0;
     position: relative;
+
+    display: flex;
+    flex-direction: row;
+
 }
 
 .custom-about-h1{
@@ -12,6 +16,7 @@
     color: #13566D;
 
     margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .decor-block{
@@ -52,14 +57,10 @@
     font-size: 20px;
 }
 
-
-
-
 .aboutCRB-goals__container{
-    display: flex;
-    flex-wrap: wrap; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    justify-content: space-between;
 }
 
 .aboutCRB-goals__goal-card{
@@ -69,13 +70,16 @@
     padding: 40px;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
 
     box-sizing: border-box;
 }
 
+.goal-card__img{
+    display: flex;
+    width: 100%;
+}
+
 .goal-card__text{
-    max-width: 558px;
     margin: 25px 0;
 }
 
@@ -112,14 +116,171 @@
     gap: 20px;
 }
 
+.commetee__img{
+    width: auto;
+}
+
 .commetee-h3{
     font-size: 24px;
 }
 
 .aboutCRB-CTA__decor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 25px;
 }
 
 .aboutCRB-CTA__img{
     display: block;
+    max-width: 100%;
+}
+
+@media (max-width: 375.98px) {
+    .aboutCRB-hero{
+        flex-direction: column;
+    }
+
+    .custom-about-h1{
+        font-size: 32px;
+
+        margin-bottom: 400px;
+    }
+
+    .about-hero__img{
+        width: 100%;
+        max-width: 300px;;
+        left: 0;
+        top: 2.7%;
+    }
+
+    .decor-block{
+        width: 100%;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .about__card{
+        gap: 10px;
+    }
+
+    .aboutCRB-goals__container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .aboutCRB-goals__goal-card{
+        padding: 25px;
+    }
+
+    .goal-card__h3{
+        font-size: 20px;
+    }
+
+    .commetees__container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .commetee__img{
+        width: 25%;
+    }
+
+    .commetee-h3{
+        font-size: 18px;
+    }
+
+    .aboutCRB-CTA__decor{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 375.99px) and (max-width: 767px) {
+    .aboutCRB-hero{
+        flex-direction: column;
+    }
+
+    .custom-about-h1{
+        font-size: 36px;
+
+        margin-bottom: 500px;
+    }
+
+    .about-hero__img{
+        width: 400px;
+        left: 50%;
+        top: 0.5%;
+        transform: translate(-50%, 0);
+    }
+
+    .decor-block{
+        width: 100%;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .aboutCRB-goals__container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .aboutCRB-goals__goal-card{
+        padding: 25px;
+    }
+
+    .commetees__container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .commetee__img{
+        width: 30%;
+    }
+
+    .aboutCRB-CTA__decor{
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .aboutCRB-hero{
+        flex-direction: column;
+    }
+
+    .decor-block{
+        width: 100%;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .custom-about-h1{
+        margin-bottom: 450px;
+    }
+
+    .about-hero__img{
+        width: 400px;
+        left: 0;
+        top: 0.5%;
+    }
+
+    .aboutCRB-goals__goal-card{
+        padding: 30px;
+    }
+
+    .commetees__container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .commetee__img{
+        width: 40%;
+    }
+
+    .aboutCRB-CTA__decor{
+        flex-direction: column;
+    }
+
 }

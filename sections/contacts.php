@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/contacts.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
 
 
 </head>
@@ -23,7 +23,7 @@ include __DIR__ . '/../templates/header.php';
 
 <main>
         <section class="contacts container">
-            <h1 class="h1 mrrt-bold turquose-dark contacts-h1">КОНТАКТЫ</h1>
+            <h1 class="h1 mrrt-bold turquose-dark">КОНТАКТЫ</h1>
 
             <div class="press">
                 <h2 class="h2">Пресс-центр Консорциума робототехники и Мира робототехники</h2>
@@ -52,13 +52,11 @@ include __DIR__ . '/../templates/header.php';
                 <p>Официальный телефон Дирекции Консорциума: <a href="tel:+79811262000" class="link black-link">+7-981-126-20-00</a></p>
             </div>
 
-            <div class="row align-items-center tolmachyov">
-                <div class="col">
-                    <img src="assets/images/contacts/contacts__director-photo.png" alt="В. А. Толмачёв фото | Консорциум робототехники" class="contacts__photo col-10">
-                </div>
-                <div class="col">
+            <div class="director">
+                <img src="assets/images/contacts/contacts__director-photo.png" alt="В. А. Толмачёв фото | Консорциум робототехники" class="director__photo">
+                <div class="director__text">
                     <h2 class="contacts-h2 hv-bold">Директор Консорциума — Толмачёв Виктор Александрович</h2>
-                    <h3 class="hv-light">По любым вопросам деятельности Консорциума и его экосистемы</h3>
+                    <p class="hv-light">По любым вопросам деятельности Консорциума и его экосистемы</h3>
                     <p>Телефон: <a class="link black-link" href="tel:+79857685934">+7 (985) 768-59-34</a></p>
                     <p>Почта: <a href="mailto:v.tolmachev@roboticsworld.ru" class="link black-link">v.tolmachev@roboticsworld.ru</a></p>
                     <p>Telegram: <a class="link black-link" href="https://t.me/Victor_Tolmachev" target="_blank">@Victor_Tolmachev</a></p>

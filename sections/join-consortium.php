@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
-    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/join-consortium.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
 
 
 </head>
@@ -22,7 +22,7 @@ include __DIR__ . '/../templates/header.php';
 ?>
 
 <main class="join-consortium">
-    <section class="container d-flex flex-row justify-content-between join-consortium-section">
+    <section class="container join-consortium-section">
         <div class="join__text-content">
             <h1 class="join-h1">Вступить в Консорциум</h1>
             <p>Для вступления в консорциум отправить сканы следующих документов в форматах PDF, doc или docx на <a href="mailto:info@robot-contol.ru" class="link">info@robot-contol.ru</a>:</p>
@@ -57,13 +57,13 @@ include __DIR__ . '/../templates/header.php';
                     </label>
                 </div>
 
-                <div class="doc-btn__container d-flex flex-row">
+                <div class="doc-btn__container">
                     <div class="file-group">
                         <span class="file-title" title="Заявление на бланке организации">Заявление</span>
 
                         <label class="file-btn">
                             <input type="file" name="doc_charter" accept=".pdf,.doc,.docx" data-accept=".pdf,.doc,.docx" required hidden>
-                            <span class="file-btn__text">Выбрать файл</span>
+                            <span class="file-btn__text">Прикрепить</span>
                             <span class="file-btn__check">✓</span>
                         </label>
 
@@ -75,7 +75,7 @@ include __DIR__ . '/../templates/header.php';
 
                         <label class="file-btn">
                             <input type="file" name="doc_charter" accept=".pdf,.doc,.docx" data-accept=".pdf,.doc,.docx" required hidden>
-                            <span class="file-btn__text">Выбрать файл</span>
+                            <span class="file-btn__text">Прикрепить</span>
                             <span class="file-btn__check">✓</span>
                         </label>
 
@@ -87,7 +87,7 @@ include __DIR__ . '/../templates/header.php';
 
                         <label class="file-btn">
                             <input type="file" name="doc_charter" accept=".pdf,.doc,.docx" data-accept=".pdf,.doc,.docx" required hidden>
-                            <span class="file-btn__text">Выбрать файл</span>
+                            <span class="file-btn__text">Прикрепить</span>
                             <span class="file-btn__check">✓</span>
                         </label>
 
@@ -97,7 +97,7 @@ include __DIR__ . '/../templates/header.php';
                 
 
                 <label class="checkbox">
-                    <input type="checkbox" name="agreement" class="checkbox" required>
+                    <input type="checkbox" name="agreement" class="checkbox__input" required>
                     Я согласен с <a class="link-turquose-light" href="https://disk.360.yandex.ru/i/UnZLabnNyhQzEA" target="_blank">условиями обработки персональных данных</a> и <a class="link-turquose-light" href="https://disk.360.yandex.ru/i/mjGgSVDquECw8A" target="_blank">политикой конфиденциальности</a>
                 </label>
 
