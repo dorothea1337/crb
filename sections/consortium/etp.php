@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -80,7 +80,7 @@ include __DIR__ . '/../../templates/header.php';
             </div>
 
             <div class="etp-participants__card">
-                <img src="<?= BASE_URL ?>assets/images/etp/ara-logo.png" alt="Общественная организация «Ассоциация робототехники Армении» логотип | Консорциум Робототехники" class="etp-participant__logo">
+                <img src="<?= BASE_URL ?>assets/images/partners/spheric-associations/armenia-robots.png" alt="Общественная организация «Ассоциация робототехники Армении» логотип | Консорциум Робототехники" class="etp-participant__logo">
                 <div class="etp-participants__card__texts">
                     <h3 class="etp-participants__card__h3">Общественная организация «Ассоциация робототехники Армении»</h3>
                     <p class="subheding">г. Ереван, Республика Армения</p>

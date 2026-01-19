@@ -10,6 +10,7 @@
     margin: 0;
 
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
 }
 
@@ -22,4 +23,52 @@
     margin-left: auto;
 
     align-items: flex-start;
+}
+
+.month-events{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.event{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    height: fit-content;
+}
+
+.event-h3{
+    font-size: 24px;
+}
+
+.event-description{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 991.98px){
+    .event-h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767.98px){
+    .month-events{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .event{
+        padding: 20px;
+    }
+
+    .event-h3{
+        font-size: 16px;
+    }
 }

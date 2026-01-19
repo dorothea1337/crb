@@ -24,9 +24,10 @@
 .banner-1__wrap{
     display: flex;
     justify-content: flex-end;
-    padding: 0;
+}
 
-    border: 1px solid rebeccapurple;
+.banner-1__wrap__inner{
+    width: auto;
 }
 
 .banner-h1{
@@ -118,6 +119,17 @@
     gap: 25px;
 }
 
+.banner-4__inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-4__img{
+    max-width: 55%;
+}
+
 .home-custom-btn{
     height: 70px;
 }
@@ -177,6 +189,38 @@
     padding-right: 40px;
 }
 
+.news__bg__wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.news__bg{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+
+    max-width: 70%;
+}
+
+.news__content{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    margin-bottom: 30px;
+}
+
+.news__content img{
+    max-width: 35%;
+}
+
+.custom__news-h3{
+    max-width: 60%;
+    font-size: 32px;
+}
+
 .mr-icons{
     margin-bottom: 25px;
 
@@ -204,7 +248,10 @@
 }
 
 #mr-magazines-carousel .carousel-control-prev,
-#mr-magazines-carousel .carousel-control-next {
+#mr-magazines-carousel .carousel-control-next, 
+#mr-news-carousel .carousel-control-prev,
+#mr-news-carousel .carousel-control-next{
+    position: absolute;
     width: 48px;
     height: 48px;
     background-color: #ffffff;
@@ -214,11 +261,13 @@
     transform: translateY(-50%);
 }
 
-#mr-magazines-carousel .carousel-control-prev {
+#mr-magazines-carousel .carousel-control-prev,
+#mr-news-carousel .carousel-control-prev {
     left: 0; 
 }
 
-#mr-magazines-carousel .carousel-control-next {
+#mr-magazines-carousel .carousel-control-next,
+#mr-news-carousel .carousel-control-next {
     right: auto;
     left: 90px;
 }
@@ -366,7 +415,16 @@
     #mr-magazines-carousel-tablet .carousel-control-next-icon {
         filter: invert(1);
     }
+
+    .news__bg{
+        max-width: 80%;
+    }
+
+    .custom__news-h3{
+        font-size: 24px;
+    }
 }
+
 
 @media (max-width: 991.98px) {
     
@@ -379,21 +437,28 @@
         margin: 0;
     }
 
+    .banner-1__wrap{
+        justify-content: flex-start;
+    }
+
+    .banner-1__wrap__inner{
+        width: 100%;
+    }
+
+    .banner-1{
+        justify-content: flex-start;
+        align-items: flex-start;       
+        padding-top: 40px; 
+    }
+
     .banner-h1{
-        font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: -0.08rem;
-        font-size: 10px;
-
-        color: white;
-        width: 900px;
-
-        margin-bottom: 50px;
+        font-size: 40px;
+        margin-bottom: 20px;
+        max-width: 100%;
     }
 
     .banner-1-subheading{
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .banner-3{
@@ -412,6 +477,16 @@
         align-items: center;
         justify-content: center;
         gap: 25px;
+    }
+
+    .banner-4__inner{
+        flex-direction: column-reverse;
+        gap: 30px
+    }
+
+    .banner-4__img{
+        width: 100%;
+        max-width: 100%;
     }
 
     .home__intro{
@@ -452,6 +527,34 @@
         font-size: 16px;
         height: 55px;
     }
+
+    .news__bg{
+        max-width: 100%;
+    }
+
+    .home__news-carousel{
+        padding-bottom: 70px;
+    }
+
+    #mr-news-carousel .carousel-control-prev,
+    #mr-news-carousel .carousel-control-next{
+        top: auto;
+        transform: none
+    }
+
+    #mr-news-carousel .carousel-control-prev {
+        left: 0;
+    }
+
+    #mr-news-carousel .carousel-control-next {
+        right: 0;
+        left: auto;
+    }
+
+    #mmr-news-carousel .carousel-control-prev-icon,
+    #mr-news-carousel .carousel-control-next-icon {
+        filter: invert(1);
+    }
 }
 
 @media (max-width: 767px) {
@@ -461,9 +564,6 @@
         background-position: left bottom;   
 
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 25px;
     }
     
     .mr-icons{
@@ -518,6 +618,31 @@
     #mr-magazines-carousel-mobile .carousel-control-prev-icon,
     #mr-magazines-carousel-mobile .carousel-control-next-icon {
         filter: invert(1);
+    }
+
+    .news__content{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .news__content img{
+        max-width: 100%;
+    }
+
+    .custom__news-h3{
+        max-width: 100%;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 452.98px){
+    .banner-h1{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .banner-1-subheading{
+        font-size: 20px;
     }
 }
 

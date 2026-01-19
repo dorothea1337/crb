@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/footer.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/header.css">
     <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/main.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>assets/styles/404.css">
 
 </head>
 
@@ -19,7 +20,18 @@
 include __DIR__ . '/../templates/header.php';
 ?>
 
-<h1>Окак</h1>
+<main>
+    <section class="last-section container-404 container">
+        <div class="main-404__wrapper">
+            <h1 class="h1-404 mrrt-bold white">404</h1>
+            <div class="main-404">
+                <h2 class="h2-404 white">Упс! Кажется, что-то пошло не так!</h2>
+                <p class="white">Страницы, которую вы запрашиваете, не существует. Возможно, она устарела, была удалена, или был введён неверный адрес в адресной строкею</p>
+                <a class="btn btn-light l-btn custom-small-btn" href="/">Вернуться на главную</a>
+            </div>
+        </div>
+    </section>
+</main>
 
 <?php
 include __DIR__ . '/../templates/footer.php';

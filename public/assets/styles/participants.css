@@ -94,6 +94,33 @@
     z-index: 2;
 }
 
+@media (max-width: 1199.98px) {
+    .modal{
+        transform: translateX(-15%);
+    }
+
+    .modal-wrapper{
+        width: auto;
+    }
+    
+    .modal-bg{
+        max-width: 70%;
+        padding: 50px 50px 50px 250px;
+    }
+
+    .modal-image-robotics{
+        max-width: 35%;
+        left: 200px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .modal-bg{
+        max-width: 70%;
+        padding: 30px 30px 30px 250px;
+    }
+}
+
 @media (max-width: 767.98px) {
     .participants-hero-inner{
         align-items: flex-start;

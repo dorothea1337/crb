@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,7 +38,7 @@ include __DIR__ . '/../templates/header.php';
             <div class="carousel-item">
                 <div class="banner-1 banner d-flex">
                     <div class="container banner-1__wrap">
-                        <div class="d-flex flex-column align-items-start m-0">
+                        <div class="d-flex flex-column align-items-start banner-1__wrap__inner">
                             <h1 class="banner-h1">Консорциум робототехники и систем интеллектуального управления</h1>
                             <p class="banner-1-subheading hv-bold white">Обеспечим технологический суверенитет вместе!</p>
                         </div>  
@@ -72,9 +72,9 @@ include __DIR__ . '/../templates/header.php';
 
             <div class="carousel-item">
                 <div class="banner-4 banner d-flex">
-                    <div class="container d-flex justify-content-between align-items-center">
-                        <img src="<?= BASE_URL ?>assets/images/home/magazines.png" alt="Журналы АТЛАС Робототехники | Консорциум робототехники и систем интеллектуального управления" class="m-0">
-                        <div>
+                    <div class="container banner-4__inner">
+                        <img src="<?= BASE_URL ?>assets/images/home/magazines.png" alt="Журналы АТЛАС Робототехники | Консорциум робототехники и систем интеллектуального управления" class="banner-4__img">
+                        <div class="banner-4__content">
                             <h2 class="h2 white">Атлас Робототехники</h2>
                             <a href="https://disk.360.yandex.ru/i/d-F2OFwaFl6zdg" target="_blank" class="btn btn-secondary l-btn custom-small-btn">Презентация Атласа</a>
                         </div>
@@ -130,6 +130,61 @@ include __DIR__ . '/../templates/header.php';
 
 <section class="home__last-news container">
     <h2 class="h2">Новости</h2>
+
+    <div class="home__turquose-container-1">
+         <div id="mr-news-carousel" class="carousel slide home__news-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    
+                    <div class="carousel-item active">
+                        <div class="news__bg__wrapper">
+                            <div class="news__bg">
+                                <div class="news__content">
+                                    <img src="<?= BASE_URL ?>assets/images/news/temp-img.png">
+                                    <h3 class="custom__news-h3">Роботизация как драйвер развития нефтегазовой отрасли: итоги круглого стола на ПМГФ-2025</h3>
+                                </div>
+                                <a class="btn btn-dark l-btn custom-small-btn" href="<?= BASE_URL ?>press-center/post-page">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="news__bg__wrapper">
+                            <div class="news__bg">
+                                <div class="news__content">
+                                    <img src="<?= BASE_URL ?>assets/images/news/temp-img-2.png">
+                                    <h3 class="custom__news-h3">Роботизация 
+                                        
+                                    </h3>
+                                </div>
+                                <a class="btn btn-dark l-btn custom-small-btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="news__bg__wrapper">
+                            <div class="news__bg">
+                                <div class="news__content">
+                                    <img src="<?= BASE_URL ?>assets/images/news/temp-img-3.png">
+                                    <h3 class="custom__news-h3">Роботизация как драйвер развития нефтегазовой отрасли</h3>
+                                </div>
+                                <a class="btn btn-dark l-btn custom-small-btn">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#mr-news-carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mr-news-carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                </button>
+                
+        </div>
+    </div>
 
     <a href="<?= BASE_URL ?>press-center/news" class="btn btn-dark m-btn">Ко всем новостям</a>
 

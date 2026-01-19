@@ -1,5 +1,9 @@
+<?php
+$categories = ["Все публикации", "Статьи", "Репортажи", "Новостные заметки", "Интервью", "Комментарии", "Подкасты"];
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +31,145 @@ include __DIR__ . '/../../templates/header.php';
             <h1 class="h1-white">СМИ о нас</h1>
             <p class="hero-subheading">Публикации, интервью и аналитика в ведущих отраслевых и федеральных СМИ</p>
         </div>
+    </section>
+
+    <section class="search-instruments container">
+        <div class="categories__dropdown">
+            <button class="btn btn-categories dropdown-toggle hv-light turquose-dark" type="button" id="dropdownCategoriesButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Категории
+            </button>
+            <ul class="dropdown-menu dropdown-menu-categories" aria-labelledby="dropdownCategoriesButton">
+                <?php foreach ($categories as $category): ?>
+                    <li><button class="dropdown-item categories__dropdown-item hv-light"><?= htmlspecialchars($category) ?></button></li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    
+        <form class="smi__search d-flex fex-row align-items-center">
+            <button class="search__button" type="submit" aria-label="Найти">
+                <img src="<?= BASE_URL ?>assets/images/news/news-icon__search.svg" alt="Иконка поиска | Консорциум робототехники и систем интеллектуального управления">
+            </button>
+            <input type="search" class="search__input hv-regular" placeholder="Поиск по постам" aria-label="Поиск по постам">
+        </form>
+    </section>
+
+    <section class="smi-o-nas__posts__wrapper">
+        <div class="container">
+            <div class="smi-o-nas__posts">
+                <div class="smi-card">
+                    <p class="smi-card__category mrrt-normal">Отчёты о мероприятиях</p>
+                    <a href="#" class="smi-card__inner">
+                        <div class="smi-card__content">
+                            <img src="<?= BASE_URL ?>assets/images/news/temp-img.png" class="smi-card__img">
+                            <h3 class="smi-card__h3 mrrt-bold turquose-dark">Роботизация как драйвер развития нефтегазовой отрасли: итоги круглого стола на ПМГФ-2025</h3>
+                            <p class="smi-card__description hv-light turquose-dark">В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы».</p>
+                        </div>
+                        <p class="smi-card__date hv-light turquose-dark">10.10.2025</p>
+                    </a>
+                </div>
+
+                <div class="smi-card">
+                    <p class="smi-card__category mrrt-normal">Отчёты о мероприятиях</p>
+                    <a href="#" class="smi-card__inner">
+                        <div class="smi-card__content">
+                            <img src="<?= BASE_URL ?>assets/images/news/temp-img.png" class="smi-card__img">
+                            <h3 class="smi-card__h3 mrrt-bold turquose-dark">Роботизация как драйвер развития нефтегазовой отрасли: итоги круглого стола на ПМГФ-2025</h3>
+                            <p class="smi-card__description hv-light turquose-dark">В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы».</p>
+                        </div>
+                        <p class="smi-card__date hv-light turquose-dark">10.10.2025</p>
+                    </a>
+                </div>
+
+                <div class="smi-card">
+                    <p class="smi-card__category mrrt-normal">Отчёты о мероприятиях</p>
+                    <a href="#" class="smi-card__inner">
+                        <div class="smi-card__content">
+                            <img src="<?= BASE_URL ?>assets/images/news/temp-img.png" class="smi-card__img">
+                            <h3 class="smi-card__h3 mrrt-bold turquose-dark">Роботизация как драйвер развития нефтегазовой отрасли: итоги круглого стола на ПМГФ-2025</h3>
+                            <p class="smi-card__description hv-light turquose-dark">В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы».</p>
+                        </div>
+                        <p class="smi-card__date hv-light turquose-dark">10.10.2025</p>
+                    </a>
+                </div>
+
+                <div class="smi-card">
+                    <p class="smi-card__category mrrt-normal">Отчёты о мероприятиях</p>
+                    <a href="#" class="smi-card__inner">
+                        <div class="smi-card__content">
+                            <img src="<?= BASE_URL ?>assets/images/news/temp-img.png" class="smi-card__img">
+                            <h3 class="smi-card__h3 mrrt-bold turquose-dark">Роботизация как драйвер развития нефтегазовой отрасли: итоги круглого стола на ПМГФ-2025</h3>
+                            <p class="smi-card__description hv-light turquose-dark">В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы».</p>
+                        </div>
+                        <p class="smi-card__date hv-light turquose-dark">10.10.2025</p>
+                    </a>
+                </div>
+
+                <div class="smi-card">
+                    <p class="smi-card__category mrrt-normal">Отчёты о мероприятиях</p>
+                    <a href="#" class="smi-card__inner">
+                        <div class="smi-card__content">
+                            <img src="<?= BASE_URL ?>assets/images/news/temp-img.png" class="smi-card__img">
+                            <h3 class="smi-card__h3 mrrt-bold turquose-dark">Роботизация как драйвер развития нефтегазовой отрасли: итоги круглого стола на ПМГФ-2025</h3>
+                            <p class="smi-card__description hv-light turquose-dark">В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы».</p>
+                        </div>
+                        <p class="smi-card__date hv-light turquose-dark">10.10.2025</p>
+                    </a>
+                </div>
+
+                <div class="smi-card">
+                    <p class="smi-card__category mrrt-normal">Отчёты о мероприятиях</p>
+                    <a href="#" class="smi-card__inner">
+                        <div class="smi-card__content">
+                            <img src="<?= BASE_URL ?>assets/images/news/temp-img.png" class="smi-card__img">
+                            <h3 class="smi-card__h3 mrrt-bold turquose-dark">Роботизация как драйвер развития нефтегазовой отрасли: итоги круглого стола на ПМГФ-2025</h3>
+                            <p class="smi-card__description hv-light turquose-dark">В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы».</p>
+                        </div>
+                        <p class="smi-card__date hv-light turquose-dark">10.10.2025</p>
+                    </a>
+                </div>
+
+                <div class="smi-card">
+                    <p class="smi-card__category mrrt-normal">Отчёты о мероприятиях</p>
+                    <a href="#" class="smi-card__inner">
+                        <div class="smi-card__content">
+                            <img src="<?= BASE_URL ?>assets/images/news/temp-img.png" class="smi-card__img">
+                            <h3 class="smi-card__h3 mrrt-bold turquose-dark">Роботизация как драйвер развития нефтегазовой отрасли: итоги круглого стола на ПМГФ-2025</h3>
+                            <p class="smi-card__description hv-light turquose-dark">В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы».</p>
+                        </div>
+                        <p class="smi-card__date hv-light turquose-dark">10.10.2025</p>
+                    </a>
+                </div>
+
+                <div class="smi-card">
+                    <p class="smi-card__category mrrt-normal">Отчёты о мероприятиях</p>
+                    <a href="#" class="smi-card__inner">
+                        <div class="smi-card__content">
+                            <img src="<?= BASE_URL ?>assets/images/news/temp-img.png" class="smi-card__img">
+                            <h3 class="smi-card__h3 mrrt-bold turquose-dark">Роботизация как драйвер развития нефтегазовой отрасли: итоги круглого стола на ПМГФ-2025</h3>
+                            <p class="smi-card__description hv-light turquose-dark">В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы». В рамках 24-й Международной выставки сварочных материалов, оборудования и технологий Weldex 2025 состоялась тренд-сессия «Путь сварки к роботам — реальность и перспективы».</p>
+                        </div>
+                        <p class="smi-card__date hv-light turquose-dark">10.10.2025</p>
+                    </a>
+                </div>  
+            </div>
+
+            <button class="smi-load-more link" type="button">
+                Показать ещё
+            </button>
+
+            <div class="smi__cooperation">
+                <h2 class="h2">Сотрудничество</h2>
+                <p class="quote-alike">Вы представитель медиа и хотите освещать темы робототехники, ИИ и технологического суверенитета?</p>
+                <p>Мы открыты к сотрудничеству: предоставим экспертные комментарии, организуем интервью с руководством и участниками, подготовим пресс-материалы и фото/видеоконтент.</p>
+                <a class="btn l-green-button green-button" href="<?= BASE_URL ?>contacts">Связаться с нами</a>
+
+                <h3 class="custom-smi-h3">Ваше СМИ освещало деятельность консорциума?</h3>
+                <p>Присылайте ссылку на публикацию — мы добавим её в этот раздел.</p>
+
+                <a class="btn l-green-button green-button" href="mailto:press@roboticsworld.ru">Поделиться публикацией</a>
+            </div>
+        </div>
+        
     </section>
 </main>
 
