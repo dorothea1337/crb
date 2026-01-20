@@ -62,6 +62,26 @@
     gap: 25px;
 }
 
+.modal-close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    border: none;
+    width: auto;
+    height: auto;
+}
+
+.modal-close__img{
+    width: auto;
+    height: auto;
+}
+
+.modal-image-robotics, .modal-image-components,
+    .modal-image-automatisation, .modal-image-ai{
+        display: block;
+    }
+
 .modal-image-robotics {
     position: absolute;
     left: 0;
@@ -108,9 +128,11 @@
         padding: 50px 50px 50px 250px;
     }
 
-    .modal-image-robotics{
+    .modal-image-robotics, .modal-image-components, 
+    .modal-image-ai, .modal-image-automatisation{
         max-width: 35%;
         left: 200px;
+        height: auto;
     }
 }
 
@@ -119,10 +141,92 @@
         max-width: 70%;
         padding: 30px 30px 30px 250px;
     }
+
+    .modal-close__img{
+        width: 20px;
+        height: 20px;
+    }
 }
 
 @media (max-width: 767.98px) {
     .participants-hero-inner{
         align-items: flex-start;
     }
+
+    .modal-text-container{
+        max-width: auto;
+        min-width: 300px;
+    }
+
+    .modal-bg{
+        max-width: 70%;
+        padding: 30px 30px 30px 90px;
+    }
+
+    .modal-image-robotics, .modal-image-components,
+    .modal-image-automatisation{
+        max-width: 35%;
+        left: 70px;
+    }
+
+    .modal-image-ai{
+        max-width: 25%;
+        left: 130px;
+        height: auto;
+    }
+
+    .modal{
+        transform: translateX(-10%);
+    }
+
+    .modal-text-container h3{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .modal-bg{
+        width: fit-content;
+        min-width: 250px;
+        max-width: 90%;
+        padding: 30px;
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .modal{
+        transform: translateX(-5%);
+    }
+
+    .modal-wrapper{
+        overflow: visible;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .modal-image-robotics, .modal-image-components,
+    .modal-image-automatisation, .modal-image-ai{
+        display: none;
+    }
+
+    .modal{
+        margin: 0 10px;
+        width: fit-content;
+    }
+
+    .modal-text-container{
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .modal-close__img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .modal-close{
+        top: 20px;
+        right: 30px;
+    }
+
 }

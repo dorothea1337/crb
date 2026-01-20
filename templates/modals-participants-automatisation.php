@@ -6,7 +6,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО «ИНТЭК промышленные системы»</h3>
 
@@ -39,7 +41,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО «ПРОМТЕХНИКА-ПРИВОЛЖЬЕ»</h3>
 
@@ -72,7 +76,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО "Компания "Стрим Лабс"</h3>
 
@@ -105,7 +111,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО «АМС»</h3>
 
@@ -138,7 +146,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО «АСФ-развитие»</h3>
 
@@ -171,7 +181,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">АО "Цифровой альянс"</h3>
 
@@ -204,7 +216,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО "АРПС"</h3>
 
@@ -237,7 +251,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО "Диджис"</h3>
 
@@ -270,7 +286,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО «ХайТэк»</h3>
 
@@ -303,7 +321,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО «Семаргл»</h3>
 
@@ -336,7 +356,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ГК «Диполь»</h3>
 
@@ -369,7 +391,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО «ДиКом-Сервис»</h3>
 
@@ -402,7 +426,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО «Сигматек»</h3>
 
@@ -433,7 +459,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО "Индутех"</h3>
 

@@ -6,7 +6,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">АО «РОББО»</h3>
 
@@ -39,7 +41,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО «АМТ-ГРУПП»</h3>
 
@@ -72,7 +76,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">АО «Корпорация Роботов»</h3>
 
@@ -105,7 +111,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО «ПРАНО ГРУПП»</h3>
 
@@ -138,7 +146,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">Южный Федеральный Университет, ФГАОУ ВО "ЮФУ", ЮФУ</h3>
 
@@ -171,7 +181,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО Уртц "Альфа-Интех"</h3>
 
@@ -204,7 +216,9 @@
         <div class="modal-wrapper">
             
           <div class="modal-bg">
-
+            <button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Закрыть">
+                <img src="<?= BASE_URL ?>assets/images/participants/cross-icon.svg" alt="Закрыть" class="modal-close__img">
+            </button>
             <div class="modal-text-container">
               <h3 class="h3">ООО "НТЦ Сирин"</h3>
 

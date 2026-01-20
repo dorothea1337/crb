@@ -219,6 +219,12 @@
 .custom__news-h3{
     max-width: 60%;
     font-size: 32px;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+
+    overflow: hidden
 }
 
 .mr-icons{
@@ -623,6 +629,9 @@
     .news__content{
         flex-direction: column;
         gap: 20px;
+
+        height: 550px;
+        justify-content: flex-start;
     }
 
     .news__content img{
@@ -632,6 +641,13 @@
     .custom__news-h3{
         max-width: 100%;
         font-size: 24px;
+    }
+
+    .news__bg{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
     }
 }
 
@@ -643,6 +659,14 @@
 
     .banner-1-subheading{
         font-size: 20px;
+    }
+
+    .custom__news-h3{
+        font-size: 20px;
+    }
+
+    .news__content{
+        height: 350px;
     }
 }
 
